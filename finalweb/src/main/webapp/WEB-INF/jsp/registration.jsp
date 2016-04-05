@@ -18,5 +18,7 @@
     <body>
         <h1> Welcome to the registration page  </h1>
         <span class="red">${msg}</span>
+        <p> First Name</p>
+        <p> Last Name</p>
     </body>
 </html>
