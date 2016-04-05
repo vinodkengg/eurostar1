@@ -20,5 +20,6 @@
         <span class="red">${msg}</span>
         <p> First Name</p>
         <p> Last Name</p>
+         <p> Email</p>
     </body>
 </html>
