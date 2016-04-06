@@ -24,17 +24,21 @@ public class DefaultController {
        return "index";
    }
    
-   @RequestMapping(value = "/registration", method = RequestMethod.GET)
-  
-   public String index2(ModelMap map) {
-       map.put("msg", "This is the second page here more stuff !");
-       return "registration";
-   }
-    
-   @RequestMapping(value = "/sinan", method = RequestMethod.GET)
-  
-   public String sinan(ModelMap map) {
+   @RequestMapping(value = "/events", method = RequestMethod.GET)
+   public String events(ModelMap map) {
        map.put("msg", "This is the second page here !");
-       return "sinan";
+       return "events";
+   }
+   
+   @RequestMapping(value = "/contact", method = RequestMethod.GET)
+   public String contact(ModelMap map) {
+       map.put("msg", "This is the second page here !");
+       return "contact";
+   }
+   
+    @RequestMapping(value = "/about", method = RequestMethod.GET)
+   public String about(ModelMap map) {
+       map.put("msg", "This is the second page here !");
+       return "about";
    }
 }

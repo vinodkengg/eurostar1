@@ -19,7 +19,7 @@
     <div class="nav">
     <ul>
           <!-- Class active indicate current page -->
-        <li class="home"><a href="home.htm" class="active">Home</a></li>
+        <li class="home"><a href="index.htm" class="active">Home</a></li>
         <li class="events"><a  href="events.htm">Events</a></li>
         <li class="about"><a href="about.htm" >About</a></li>
         <li class="contact"><a href="contact.htm">Contact</a></li>
