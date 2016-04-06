@@ -1,5 +1,5 @@
 body {
-    background-color: whitesmoke ;
+    background-color: white;
     padding: 10px 20px;
 }
 
@@ -50,8 +50,7 @@ p {
 }
  
 .nav a.active {
-  background-color: whitesmoke;
-  color: black;
+  color: white;
   cursor: default;
 }
 /*footer css*/
@@ -69,6 +68,7 @@ p {
     background: none repeat scroll 0 0;
     height: auto;
     margin: auto;
+    font-size: 20px;
     width:100%;
     
 }
