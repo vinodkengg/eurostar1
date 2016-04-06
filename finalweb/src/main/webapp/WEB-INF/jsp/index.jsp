@@ -12,8 +12,8 @@
         <script src="${cp}/resources/js/js.js"></script>
     </head>
     <body>
-        <h1> Hello Guys This is Spring 4 Web MVC via Annotations and Maven bae </h1>
-        Spring says: <span class="blue">${msg}</span>
+        <h1> DELIRIUM EVENTS </h1>
+       
     </body>
     
     <div class="nav">
