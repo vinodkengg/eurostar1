@@ -12,7 +12,24 @@
         <script src="${cp}/resources/js/js.js"></script>
     </head>
     <body>
-        <h4> Hello Guys This is Spring 4 Web MVC via Annotations and Maven </h4>
+        <h1> Hello Guys This is Spring 4 Web MVC via Annotations and Maven bae </h1>
         Spring says: <span class="blue">${msg}</span>
     </body>
+    
+    <div class="nav">
+    <ul>
+          <!-- Class active indicate current page -->
+        <li class="home"><a href="home.htm" class="active">Home</a></li>
+        <li class="events"><a  href="events.htm">Events</a></li>
+        <li class="about"><a href="about.htm" >About</a></li>
+        <li class="contact"><a href="contact.htm">Contact</a></li>
+      </ul>
+    
+    </div>
+    <footer>
+        <div class="footerholder">
+        <div class="site-footer">
+        Copyright 2016
+    </div>
+    </footer>
 </html>

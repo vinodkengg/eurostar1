@@ -1,23 +1,74 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 06-Nov-2014, 21:55:03
-    Author     : john.ralston
-*/
-
-.blue {
-    color:blue;
+body {
+    background-color: whitesmoke ;
+    padding: 10px 20px;
 }
 
-
-.red {
-    color:red;
+/*main heading styling*/
+h1 {
+    color: #585858;
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
 }
 
-.yellow {
-    color:yellow;
+p {
+    font-family: "Times New Roman";
+    font-size: 10px;
 }
 
+.nav ul{
+  list-style: none;
+  background-color: #A8A8A8;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  margin: auto auto auto 30px ;
+  
+  /*Achive a horizontal navigational bar*/
+  display: inline-block;
+  color: black;
+  font-family:  sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: auto;
+}
+ 
+.nav a {
+  text-decoration: none;
+  /*navigation text colour*/
+  color: black;
+  display: inline-block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: grey;
+  color: white;
+}
+ 
+.nav a.active {
+  background-color: whitesmoke;
+  color: black;
+  cursor: default;
+}
+/*footer css*/
+.footerholder {
+    background: none repeat scroll 0 0 grey;
+    bottom: 20px;
+    position: fixed;
+    text-align: center;
+    width: 95%;
+    display: inline-block;
+    padding: 15px;
+}
+
+.site-footer {
+    background: none repeat scroll 0 0;
+    height: auto;
+    margin: auto;
+    width:100%;
+    
+}
