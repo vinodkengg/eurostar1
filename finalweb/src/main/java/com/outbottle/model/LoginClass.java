@@ -25,5 +25,8 @@ public class LoginClass {
     public UserService getUserService(){
         return this.userService;
     
-    public bloolean isValid(String userName,)
+//    public bloolean isValid(String userName,){
+//        
+//    }
+    }
 }
