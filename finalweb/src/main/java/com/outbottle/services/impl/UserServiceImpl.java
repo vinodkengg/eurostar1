@@ -11,8 +11,10 @@ import com.outbottle.services.UserService;
  *
  * @author tommyacton
  */
+
+/* 
 public class  UserServiceImpl implements UserService{
-    
+   
     public 
     
     
@@ -20,5 +22,6 @@ public class  UserServiceImpl implements UserService{
     public boolean isValidUser(String userName, String password) throws SQLException {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
+ 
 }
+*/   

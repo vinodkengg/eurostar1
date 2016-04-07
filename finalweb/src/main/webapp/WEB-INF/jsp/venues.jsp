@@ -13,16 +13,17 @@
         <link rel="stylesheet" type="text/css" href="${cp}/resources/css/site.css" />
         <script src="${cp}/resources/js/js.js"></script>
     </head>
-    <body>
-        <h1> Hello Guys This is Spring 4 Web MVC via Annotations and Maven bae </h1>
+    <body>  
+        <h1> Venues</h1>
         Spring says: <span class="blue">${msg}</span>
    
     
     <div class="nav">
     <ul>
           <!-- Class active indicate current page -->
-        <li class="home"><a href="home.htm" class="active">Home</a></li>
-        <li class="events"><a  href="events.htm">Events</a></li>
+        <li class="index"><a href="index.htm" >Home</a></li>
+      
+        <li class="venues"><a  href="venues.htm">Venues</a></li>
         <li class="about"><a href="about.htm" >About</a></li>
         <li class="contact"><a href="contact.htm">Contact</a></li>
       </ul>

@@ -25,7 +25,7 @@ import org.springframework.web.servlet.ModelAndView;
  * @author tommyacton
  */
 public class LoginController {
-    
+  /*  
     @Autowired
     private LoginDelegate loginDelegate;
     
@@ -44,5 +44,5 @@ public class LoginController {
             boolean isValidUser = loginDelegate.isVal
         }
     }
-    
+    */
 }

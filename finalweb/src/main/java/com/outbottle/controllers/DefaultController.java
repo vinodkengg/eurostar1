@@ -14,17 +14,16 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class DefaultController {
     
-   @RequestMapping(value = "/", method = RequestMethod.GET)
-  
+   @RequestMapping(value = {"/","/index"}, method = RequestMethod.GET)
    public String index(ModelMap map) {
        map.put("msg", "Hello this is coming from the Default Controller !");
        return "index";
    }
    
-   @RequestMapping(value = "/events", method = RequestMethod.GET)
-   public String events(ModelMap map) {
+   @RequestMapping(value = "/venues", method = RequestMethod.GET)
+   public String venues(ModelMap map) {
        map.put("msg", "This is the second page here !");
-       return "events";
+       return "venues";
    }
    
    @RequestMapping(value = "/contact", method = RequestMethod.GET)
