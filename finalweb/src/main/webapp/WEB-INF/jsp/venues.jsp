@@ -20,7 +20,7 @@
     <ul>
           <!-- Navigation Bar -->
         <li class="index"><a href="index.htm" >Home</a></li>
-        <li class="venues"><a  href="venues.htm">Venues</a></li>
+        <li class="venues"><a  href="venues.htm" class="active">Venues</a></li>
         <li class="about"><a href="about.htm" >About</a></li>
         <li class="contact"><a href="contact.htm">Contact</a></li>
       </ul>
