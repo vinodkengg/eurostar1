@@ -1,18 +1,18 @@
 body {
-    background-color: white;
+    background-color: black;
     padding: 10px 20px;
 }
 
 /*main heading styling*/
 h1 {
-    color: #585858;
+    color: white;
     text-align: center;
     font-size: 30px;
     font-style: oblique;
 }
 
 p {
-    font-family: "Times New Roman";
+    font-family: "Lucida Console";
     font-size: 10px;
 }
 
@@ -62,13 +62,48 @@ p {
     width: 95%;
     display: inline-block;
     padding: 15px;
+    bottom: 0px;
+    left:0px;
 }
 
 .site-footer {
     background: none repeat scroll 0 0;
     height: auto;
     margin: auto;
-    font-size: 20px;
-    width:100%;
-    
+    position:fixed;
+    font-size: 12px;
+    width:100%;   
+       left:0px;
+   bottom:0px;
 }
+
+
+.boxone {
+    width:250px;
+    height:400px;
+    float:left;
+    padding:0px 20px;
+    margin: 20px;
+    background:grey;
+}
+
+.boxone p {
+    color: white;
+    padding:0px 20px;
+}
+
+/******
+.boxone {
+    width:250px;
+    height:100px;
+    float:left;
+    padding:0px 20px;
+    position:fixed;
+    margin:20px;
+    background:grey
+}
+
+.boxone p {
+    color: white;
+    
+}************/

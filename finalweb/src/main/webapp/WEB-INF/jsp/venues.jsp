@@ -4,8 +4,6 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
     "http://www.w3.org/TR/html4/loose.dtd">
 
-<html>
-    
     <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -14,27 +12,50 @@
         <script src="${cp}/resources/js/js.js"></script>
     </head>
     <body>  
+        <!-- Title-->
         <h1> Venues</h1>
         Spring says: <span class="blue">${msg}</span>
    
-    
     <div class="nav">
     <ul>
-          <!-- Class active indicate current page -->
+          <!-- Navigation Bar -->
         <li class="index"><a href="index.htm" >Home</a></li>
-      
         <li class="venues"><a  href="venues.htm">Venues</a></li>
         <li class="about"><a href="about.htm" >About</a></li>
         <li class="contact"><a href="contact.htm">Contact</a></li>
       </ul>
-    
-    </div>
+     </div>
+        
+        <div class="boxone">
+        <h1>Bar 13</h1>
+<p>Address: 13-15 Bridge Street, Guildford</p>
+<p>Phone: 01483 546578</p>
+<p>E-mail: info@barthirteen.co.uk</p>
+        </div>     
+        
+        
+         <div class="boxone">
+        <h1>Casino Nightclub</h1>
+<p>Address: Onslow Street,
+Guildford, GU1 4SQ
+Surrey</p>
+<p>Phone: 01483 865780</p>
+<p>E-mail: casino-guildford@luminar.co.uk</p>
+        </div>    
+        
+         <div class="boxone">
+        <h1>Tickled Ivory</h1>
+<p>Address: ??????????????</p>
+<p>Phone: ??????????????</p>
+<p>E-mail: ??????????????</p>
+        </div>       
+        
         
     </body>
     
     <div class="footerholder">
     <div class="site-footer">
-        Blah blah2
+        Copyright 2016	&copy;
     </div>
 </div>
 

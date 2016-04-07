@@ -12,13 +12,14 @@
         <script src="${cp}/resources/js/js.js"></script>
     </head>
     <body>
-        <h1> DELIRIUM EVENTS </h1>
+        <!-- Title-->
+        <h1> Delirium Events</h1>
        
     </body>
     
     <div class="nav">
     <ul>
-          <!-- Class active indicate current page -->
+          <!-- Navigation Bar -->
         <li class="index"><a href="index.htm">Home</a></li>
         <li class="venues"><a  href="venues.htm">Venues</a></li>
         <li class="about"><a href="about.htm" >About</a></li>
@@ -29,7 +30,7 @@
     <footer>
         <div class="footerholder">
         <div class="site-footer">
-        Copyright 2016
+        Copyright 2016	&copy;
     </div>
     </footer>
 </html>
