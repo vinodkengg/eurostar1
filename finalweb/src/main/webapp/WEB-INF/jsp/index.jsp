@@ -11,13 +11,16 @@
         <link rel="stylesheet" type="text/css" href="${cp}/resources/css/site.css" />
         <script src="${cp}/resources/js/js.js"></script>
     </head>
-    
-    
+        
     <body>
         <!-- Title-->
         <h1> Delirium Events</h1>
-       
     </body>
+    
+    <div class="logo">
+        <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:200px;height:134px;">
+    </div>  
+    
     <div class="nav">
     <ul>
           <!-- Navigation Bar --> 
@@ -27,12 +30,6 @@
         <li class="about"><a href="about.htm" >About</a></li>
         <li class="contact"><a href="contact.htm">Contact</a></li>
       </ul>
-    
-    </div>
-    
-    
-     <div class="logo">
-        <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:200px;height:134px;">
     </div>
     
     <footer>

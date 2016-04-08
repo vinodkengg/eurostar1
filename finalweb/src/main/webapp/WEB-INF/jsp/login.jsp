@@ -14,4 +14,9 @@
     <body>
         <h1>Hello sinan!</h1>
     </body>
+    
+    <div class="logo">
+        <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:200px;height:134px;">
+    </div> 
+    
 </html>

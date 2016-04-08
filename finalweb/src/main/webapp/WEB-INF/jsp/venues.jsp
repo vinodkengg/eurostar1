@@ -15,7 +15,12 @@
         <!-- Title-->
         <h1> Venues</h1>
         Spring says: <span class="blue">${msg}</span>
-   
+    </body>
+    
+    <div class="logo">
+        <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:200px;height:134px;">
+    </div> 
+    
     <div class="nav">
     <ul>
           <!-- Navigation Bar -->

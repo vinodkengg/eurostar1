@@ -13,12 +13,17 @@
         <link rel="stylesheet" type="text/css" href="${cp}/resources/css/site.css" />
         <script src="${cp}/resources/js/js.js"></script>
     </head>
+    
     <body>
         <!-- Title-->
         <h1> Contact Us </h1>
         Spring says: <span class="blue">${msg}</span>
-   
+    </body>
     
+    <div class="logo">
+        <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:200px;height:134px;">
+    </div> 
+        
     <div class="nav">
     <ul>
           <!-- Navigation Bar -->
