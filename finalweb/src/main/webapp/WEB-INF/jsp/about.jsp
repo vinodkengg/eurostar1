@@ -24,6 +24,7 @@
           <!-- Navigation Bar -->
         <li class="index"><a href="index.htm">Home</a></li>
         <li class="venues"><a  href="venues.htm">Venues</a></li>
+        <!-- active indicates what page the user is on -->
         <li class="about"><a href="about.htm" class="active" >About</a></li>
         <li class="contact"><a href="contact.htm">Contact</a></li>
       </ul>

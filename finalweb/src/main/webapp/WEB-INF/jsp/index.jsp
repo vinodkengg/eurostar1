@@ -11,15 +11,17 @@
         <link rel="stylesheet" type="text/css" href="${cp}/resources/css/site.css" />
         <script src="${cp}/resources/js/js.js"></script>
     </head>
+    
+    
     <body>
         <!-- Title-->
         <h1> Delirium Events</h1>
        
     </body>
-    
     <div class="nav">
     <ul>
-          <!-- Navigation Bar -->
+          <!-- Navigation Bar --> 
+          <!-- active indicates what page the user is on -->
         <li class="index"><a href="index.htm" class="active">Home</a></li>
         <li class="venues"><a  href="venues.htm">Venues</a></li>
         <li class="about"><a href="about.htm" >About</a></li>
@@ -27,6 +29,12 @@
       </ul>
     
     </div>
+    
+    
+     <div class="logo">
+        <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:200px;height:134px;">
+    </div>
+    
     <footer>
         <div class="footerholder">
         <div class="site-footer">
