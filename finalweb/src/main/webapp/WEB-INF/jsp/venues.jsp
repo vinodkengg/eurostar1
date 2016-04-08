@@ -14,7 +14,7 @@
     <body>  
         <!-- Title-->
         <h1> Venues</h1>
-        Spring says: <span class="blue">${msg}</span>
+        
     </body>
     
     <div class="logo">

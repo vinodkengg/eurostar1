@@ -16,7 +16,7 @@
     <body>
         <!-- Title-->
         <h1> About </h1>
-        Spring says: <span class="blue">${msg}</span>
+
     </body>
     
     <div class="logo">
