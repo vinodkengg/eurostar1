@@ -3,3 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+jQuery(document).ready(function($) {
+
+	$('#msg').html("This is updated by jQuery");
+        
+
+});
