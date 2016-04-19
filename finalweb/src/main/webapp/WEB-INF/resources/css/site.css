@@ -15,6 +15,7 @@ h1 {
 p {
     font-family: "Lucida Console";
     font-size: 10px;
+     
 }
 
 .logo {
@@ -95,7 +96,7 @@ p {
 }
 
 .boxone {
-    width:250px;
+    width:150px;
     height:400px;
     float:left;
     padding:0px 20px;
@@ -108,18 +109,20 @@ p {
     padding:0px 20px;
 }
 
-/******
-.boxone {
-    width:250px;
-    height:100px;
-    float:left;
-    padding:0px 20px;
-    position:fixed;
-    margin:20px;
-    background:grey
-}
 
-.boxone p {
-    color: white;
-    
-}************/
+/***
+Javascript for venues
+***/
+.testcomment {width:200px;float:left;background-color:grey;border:1.5px solid red;
+} 
+iframe {width:100%; height:250px;border:0;}
+#comment-wrap {background:#fff;position:relative}
+#comments #comment-wrap{display:none;z-index:5;padding:10px; background-color:grey;}
+#comments:hover #comment-wrap {display:block}
+
+
+.venueone{float:left;display:inline-block;}
+
+.venuetwo{float:left;display-inline:block;}
+
+.venuethree{float:left;display-inline:block;}

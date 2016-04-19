@@ -7,6 +7,19 @@
 jQuery(document).ready(function($) {
 
 	$('#msg').html("This is updated by jQuery");
-        
+
 
 });
+
+hover = function() {
+    if (!document.body.currentStyle) return;
+    var DIVcomments = document.getElementById('comments');
+    var DIVcomment_wrap = document.getElementById('comment-wrap');
+    DIVcomments.onmouseover = function() {
+        DIVcomment_wrap.style.display = 'block';
+    }
+    DIVcomments.onmouseout = function() {
+        DIVcomment_wrap.style.display = 'none';
+    }
+}
+window.onload = hover;
