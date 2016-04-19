@@ -59,7 +59,7 @@
     
     <div class="venuethree">
     <div id="comments" class="testcomment">
-    <h2 href="#" class="btn">Tickled Ivoryyyy</h2>
+    <h2 href="#" class="btn">Tickled Ivoryyyyyyyy</h2>
     <div id="comment-wrap">     
 <p>Address: 13-15 Bridge Street, Guildford</p>
 <p>Phone: 01483 546578</p>
