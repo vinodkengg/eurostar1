@@ -6,10 +6,13 @@
 
     <html>
     <head>
+        <!-- Imports -->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Group CourseWork 4 </title>
         <link rel="stylesheet" type="text/css" href="${cp}/resources/css/site.css" />
-        <script src="${cp}/resources/js/js.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+        <script src="${cp}/resources/js/js.js"> </script>
+        
     </head>
     <body>  
         <!-- Title-->
@@ -31,32 +34,41 @@
         <li class="contact"><a href="contact.htm">Contact</a></li>
       </ul>
      </div>
-        
-        <div class="boxone">
-        <h1>Bar 13</h1>
+   
+    <div class="venueone">
+<div id="comments" class="testcomment">
+    <h2 href="#" class="btn">Bar 13</h2>
+    <div id="comment-wrap">     
 <p>Address: 13-15 Bridge Street, Guildford</p>
 <p>Phone: 01483 546578</p>
 <p>E-mail: info@barthirteen.co.uk</p>
-        </div>     
+   <button>Show on Map</button> <button>Events</button>
+    </div>
+    </div>
         
-        
-         <div class="boxone">
-        <h1>Casino Nightclub</h1>
-<p>Address: Onslow Street,
-Guildford, GU1 4SQ
-Surrey</p>
-<p>Phone: 01483 865780</p>
-<p>E-mail: casino-guildford@luminar.co.uk</p>
-        </div>    
-        
-         <div class="boxone">
-        <h1>Tickled Ivory</h1>
-<p>Address: ??????????????</p>
-<p>Phone: ??????????????</p>
-<p>E-mail: ??????????????</p>
-        </div>       
-        
-        
+    <div class="venuetwo">
+    <div id="comments" class="testcomment">
+    <h2 href="#" class="btn">Casino Night Club</h2>
+    <div id="comment-wrap">     
+<p>Address: 13-15 Bridge Street, Guildford</p>
+<p>Phone: 01483 546578</p>
+<p>E-mail: info@barthirteen.co.uk</p>
+   <button>Show on Map</button> <button>Events</button>
+    </div>
+    </div>
+    
+    <div class="venuethree">
+    <div id="comments" class="testcomment">
+    <h2 href="#" class="btn">Tickled Ivory</h2>
+    <div id="comment-wrap">     
+<p>Address: 13-15 Bridge Street, Guildford</p>
+<p>Phone: 01483 546578</p>
+<p>E-mail: info@barthirteen.co.uk</p>
+   <button>Show on Map</button> <button>Events</button>
+    </div>
+    </div>    
+  
+    
     </body>
     
     <div class="footerholder">
