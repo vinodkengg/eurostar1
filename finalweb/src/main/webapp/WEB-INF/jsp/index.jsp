@@ -38,7 +38,6 @@
         
         
         <div id="bg_container">
-            
             <iframe id="bg" src="https://www.youtube.com/embed/b5Gm6I8tCFw?modestbranding=1&amp;autoplay=1&amp;controls=0&amp;loop=1&amp;showinfo=0&amp;disablekb=1&amp;enablejsapi=1&amp;playlist=b5Gm6I8tCFw" frameborder="0"></iframe>
             
         </div>
