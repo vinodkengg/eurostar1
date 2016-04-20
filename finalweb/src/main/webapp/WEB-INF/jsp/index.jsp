@@ -11,29 +11,44 @@
         <title>Group CourseWork 4 </title>
         <link rel="stylesheet" type="text/css" href="${cp}/resources/css/site.css" />
         <script src="${cp}/resources/js/js.js"></script>
+        <script src="../resources/js/js.js"></script>
+              
     </head>
-        
+           
     <body>
         <!-- Title-->
         <h1> Delirium Events</h1>
-    </body>
     
-    <!-- Website Logo -->
-    <div class="logo">
-        <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:200px;height:134px;">
-    </div>  
+    
+        <!-- Website Logo -->
+        <div class="logo">
+            <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:150px;height:104px;">
+        </div>  
+
+        <div class="nav">
+            <ul>
+                <!-- Navigation Bar --> 
+                <!-- active indicates what page the user is on -->
+              <li class="index"><a href="index.htm" class="active">Home</a></li>
+              <li class="venues"><a  href="venues.htm">Venues</a></li>
+              <li class="about"><a href="about.htm" >About</a></li>
+              <li class="contact"><a href="contact.htm">Contact</a></li>
+            </ul>
+        </div>
         
-    <div class="nav">
-        <ul>
-            <!-- Navigation Bar --> 
-            <!-- active indicates what page the user is on -->
-          <li class="index"><a href="index.htm" class="active">Home</a></li>
-          <li class="venues"><a  href="venues.htm">Venues</a></li>
-          <li class="about"><a href="about.htm" >About</a></li>
-          <li class="contact"><a href="contact.htm">Contact</a></li>
-        </ul>
-    </div>
-      
+        
+        <div id="bg_container">
+            
+            <iframe id="bg" src="https://www.youtube.com/embed/b5Gm6I8tCFw?modestbranding=1&amp;autoplay=1&amp;controls=0&amp;loop=1&amp;showinfo=0&amp;disablekb=1&amp;enablejsapi=1&amp;playlist=b5Gm6I8tCFw" frameborder="0"></iframe>
+            
+        </div>
+        
+        <div id="intro_container">
+            <p id="intro"> Happy 420 Boys </p>
+        </div>
+
+    </body>
+  
     <footer>
         <div class="footerholder">
         <div class="site-footer">
