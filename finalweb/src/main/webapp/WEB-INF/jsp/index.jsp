@@ -46,7 +46,10 @@
         </div>
         
         <div id="intro_container">
-            <p id="intro">WE<br>WANT YOUR<br>SOUL</p>
+            <p id="intro">WE</p>
+            <p id="intro">WANT</p>
+            <p id="intro">YOUR</p>
+            <p id="intro">SOUL</p>
         </div>
 
     </body>
