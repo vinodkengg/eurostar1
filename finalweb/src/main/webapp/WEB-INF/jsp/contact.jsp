@@ -6,7 +6,6 @@
 
 <html>
     
-     <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Group CourseWork 4 </title>
@@ -15,45 +14,48 @@
         <!--Java script starts here -->
         <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
         <script src="${cp}/resources/js/js.js"> </script>
-        <!--Java script starts here -->
-       
-              
-
+        <!--Java script starts here -->        
     </head>
     
     <body>
         <!-- Title-->
-        <h1> Contact Us </h1>
-    </body>
+        <h1> Delirium Events</h1>
+         
+        <!-- Website Logo Left -->
+        <div class="logoleft">
+            <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:150px;height:100px;">
+        </div>  
+            
+        <!-- Website Logo Right -->
+        <div class="logoright">
+            <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:150px;height:100px;">
+        </div>  
+
+        <!-- Navigation Bar -->
+        <div class="nav">
+            <ul>
+                <li class="index"><a href="index.htm" >Home</a></li>
+                <li class="venues"><a  href="venues.htm">Venues</a></li>
+                <li class="events"><a href="events.htm">Events</a></li>
+                <li class="about"><a href="about.htm" >About</a></li>
+                <!-- active indicates what page the user is on -->
+                <li class="contact"><a href="contact.htm" class="active">Contact</a></li>
+            </ul>
     
-    <div class="logo">
-        <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:200px;height:134px;">
-    </div> 
-        
-    <div class="nav">
-    <ul>
-          <!-- Navigation Bar -->
-        <li class="index"><a href="index.htm" >Home</a></li>
-        <li class="venues"><a  href="venues.htm">Venues</a></li>
-        <li class="events"><a href="events.htm">Events</a></li>
-        <li class="about"><a href="about.htm" >About</a></li>
-        <!-- active indicates what page the user is on -->
-        <li class="contact"><a href="contact.htm" class="active">Contact</a></li>
-      </ul>
-    
-        <div class="active">
-        
-            <h1> hello man GHJK </h1>
-            <div id="msg"> TEST </div>
-   
+            <div class="active">
+                <h1> hello man GHJK </h1>
+                <div id="msg"> TEST </div>
+            </div>
         </div>
         
-    </div>
+        <!--INSERT CONTENT HERE -->
+    </body>
     
+    <!--Copyright Footer -->
     <div class="footerholder">
-    <div class="site-footer">
-        Copyright 2016	&copy;
+        <div class="site-footer">
+            Copyright 2016 &copy;
+        </div>
     </div>
-</div>
-
+   
 </html>

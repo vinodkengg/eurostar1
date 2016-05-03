@@ -6,40 +6,47 @@
 
 <html>
     
-      <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Group CourseWork 4 </title>
         <link rel="stylesheet" type="text/css" href="${cp}/resources/css/site.css" />
         <script src="${cp}/resources/js/js.js"></script>
     </head>
+    
     <body>
-        <!-- Title-->
-        <h1> About </h1>
+           <!-- Title-->
+        <h1> Delirium Events</h1>
+         
+        <!-- Website Logo Left -->
+        <div class="logoleft">
+            <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:150px;height:100px;">
+        </div>  
+            
+        <!-- Website Logo Right -->
+        <div class="logoright">
+            <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:150px;height:100px;">
+        </div>  
 
+        <!-- Navigation Bar -->
+        <div class="nav">
+            <ul>
+                <li class="index"><a href="index.htm">Home</a></li>
+                <li class="venues"><a  href="venues.htm">Venues</a></li>
+                <li class="events"><a href="events.htm">Events</a></li>
+                <!-- active indicates what page the user is on -->
+                <li class="about"><a href="about.htm" class="active" >About</a></li>
+                <li class="contact"><a href="contact.htm">Contact</a></li>
+              </ul>
+        </div>
+    
+        <!--INSERT CONTENT HERE -->
     </body>
     
-    <div class="logo">
-        <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:200px;height:134px;">
-    </div> 
-    
-    <div class="nav">
-    <ul>
-          <!-- Navigation Bar -->
-        <li class="index"><a href="index.htm">Home</a></li>
-        <li class="venues"><a  href="venues.htm">Venues</a></li>
-        <li class="events"><a href="events.htm">Events</a></li>
-        <!-- active indicates what page the user is on -->
-        <li class="about"><a href="about.htm" class="active" >About</a></li>
-        <li class="contact"><a href="contact.htm">Contact</a></li>
-      </ul>
-    
-    </div>
-    
+    <!--Copyright Footer -->
     <div class="footerholder">
-    <div class="site-footer">
-        Copyright 2016	&copy;
+        <div class="site-footer">
+            Copyright 2016 &copy;
+        </div>
     </div>
-</div>
 
 </html>

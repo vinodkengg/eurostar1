@@ -20,124 +20,127 @@
         <script src="${cp}/resources/js/js.js"> </script>
         
     </head>
+    
     <body>  
-        <!-- Title-->
-        <h1>Events</h1>
-        
-    </body>
-    
-    <div class="logo">
-        <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:200px;height:134px;">
-    </div> 
-    
-    <div class="nav">
-    <ul>
-          <!-- Navigation Bar -->
-        <li class="index"><a href="index.htm" >Home</a></li>
-        <!-- active indicates what page the user is on -->
-        <li class="venues"><a  href="venues.htm">Venues</a></li>
-        <li class="events"><a href="events.htm" class="active">Events</a></li>
-        <li class="about"><a href="about.htm" >About</a></li>
-        <li class="contact"><a href="contact.htm">Contact</a></li>
-        
-      </ul>
-     </div>
+            <!-- Title-->
+        <h1> Delirium Events</h1>
+         
+        <!-- Website Logo Left -->
+        <div class="logoleft">
+            <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:150px;height:100px;">
+        </div>  
+            
+        <!-- Website Logo Right -->
+        <div class="logoright">
+            <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:150px;height:100px;">
+        </div>  
+
+        <!-- Navigation Bar -->
+        <div class="nav">
+            <ul>
+                <li class="index"><a href="index.htm" >Home</a></li>
+                <!-- active indicates what page the user is on -->
+                <li class="venues"><a  href="venues.htm">Venues</a></li>
+                <li class="events"><a href="events.htm" class="active">Events</a></li>
+                <li class="about"><a href="about.htm" >About</a></li>
+                <li class="contact"><a href="contact.htm">Contact</a></li>
+            </ul>
+        </div>
    
-    <div class="venueone">
-<div id="comments" class="testcomment">
-    <h2 href="#" class="btn">Bar 13</h2>
-    <div id="comment-wrap">     
-<p>Event one: 28/04/2016 </p>
-<p>Event Details go here/p>
-<p>......................</p>
-    <button>Add To Basket</button>
-    
-<p>Event two: 29/04/2016 </p>
-<p>Event Details go here</p>
-<p>......................</p>
+        <div class="venueone">
+            <div id="comments" class="testcomment">
+                <h2 href="#" class="btn">Bar 13</h2>
 
-    <button>Add To Basket</button>
+                <div id="comment-wrap">     
+                    <p>Event one: 28/04/2016 </p>
+                    <p>Event Details go here/p>
+                    <p>......................</p>
+                    <button>Add To Basket</button>
 
-<p>Event three: 21/05/2016 </p>
-<p>Event Details go here/p>
-<p>......................</p>
-    <button>Add To Basket</button>      
-    </div>
-    </div>
+                    <p>Event two: 29/04/2016 </p>
+                    <p>Event Details go here</p>
+                    <p>......................</p>
+                    <button>Add To Basket</button>
+
+                    <p>Event three: 21/05/2016 </p>
+                    <p>Event Details go here/p>
+                    <p>......................</p>
+                    <button>Add To Basket</button>      
+                </div>
+            </div>
         
-   <div class="venueone">
-<div id="comments" class="testcomment">
-    <h2 href="#" class="btn">Casino Night Club</h2>
-    <div id="comment-wrap">     
-<p>Event one: 28/04/2016 </p>
-<p>Event Details go here</p>
-<p>......................</p>
-    <button>Add To Basket</button>
-    
-<p>Event two: 29/04/2016 </p>
-<p>Event Details go here</p>
-<p>......................</p>
+        <div class="venueone">
+            <div id="comments" class="testcomment">
+                <h2 href="#" class="btn">Casino Night Club</h2>
 
-    <button>Add To Basket</button>
+                <div id="comment-wrap">     
+                    <p>Event one: 28/04/2016 </p>
+                    <p>Event Details go here</p>
+                    <p>......................</p>
+                    <button>Add To Basket</button>
 
-<p>Event three: 21/05/2016 </p>
-<p>Event Details go here</p>
-<p>......................</p>
-    <button>Add To Basket</button>      
-    </div>
-    </div>
-       
-       <div class="venueone">
-<div id="comments" class="testcomment">
-    <h2 href="#" class="btn">Tickled Ivory</h2>
-    <div id="comment-wrap">     
-<p>Event one: 28/04/2016 </p>
-<p>Event Details go here</p>
-<p>......................</p>
-    <button>Add To Basket</button>
-    
-<p>Event two: 29/04/2016 </p>
-<p>Event Details go here</p>
-<p>......................</p>
+                    <p>Event two: 29/04/2016 </p>
+                    <p>Event Details go here</p>
+                    <p>......................</p>
+                    <button>Add To Basket</button>
 
-    <button>Add To Basket</button>
+                    <p>Event three: 21/05/2016 </p>
+                    <p>Event Details go here</p>
+                    <p>......................</p>
+                    <button>Add To Basket</button>      
+                </div>
+            </div>
 
-<p>Event three: 21/05/2016 </p>
-<p>Event Details go here</p>
-<p>......................</p>
-    <button>Add To Basket</button>      
-    </div>
-    </div>
+        <div class="venueone">
+            <div id="comments" class="testcomment">
+                <h2 href="#" class="btn">Tickled Ivory</h2>
+
+                <div id="comment-wrap">     
+                    <p>Event one: 28/04/2016 </p>
+                    <p>Event Details go here</p>
+                    <p>......................</p>
+                    <button>Add To Basket</button>
+
+                    <p>Event two: 29/04/2016 </p>
+                    <p>Event Details go here</p>
+                    <p>......................</p>
+                    <button>Add To Basket</button>
+
+                    <p>Event three: 21/05/2016 </p>
+                    <p>Event Details go here</p>
+                    <p>......................</p>
+                    <button>Add To Basket</button>      
+                </div>
+            </div>
            
-<div class="venueone">
-<div id="comments" class="testcomment">
-    <h2 href="#" class="btn">Weatherspoons</h2>
-    <div id="comment-wrap">     
-<p>Event one: 28/04/2016 </p>
-<p>Event Details go here</p>
-<p>......................</p>
-    <button>Add To Basket</button>
-    
-<p>Event two: 29/04/2016 </p>
-<p>Event Details go here</p>
-<p>......................</p>
+            <div class="venueone">
+                <div id="comments" class="testcomment">
+                    <h2 href="#" class="btn">Weatherspoons</h2>
 
-    <button>Add To Basket</button>
+                    <div id="comment-wrap">     
+                        <p>Event one: 28/04/2016 </p>
+                        <p>Event Details go here</p>
+                        <p>......................</p>
+                        <button>Add To Basket</button>
 
-<p>Event three: 21/05/2016 </p>
-<p>Event Details go here</p>
-<p>......................</p>
-    <button>Add To Basket</button>      
-    </div>
-    </div>
-  
-    
+                        <p>Event two: 29/04/2016 </p>
+                        <p>Event Details go here</p>
+                        <p>......................</p>
+                        <button>Add To Basket</button>
+
+                        <p>Event three: 21/05/2016 </p>
+                        <p>Event Details go here</p>
+                        <p>......................</p>
+                        <button>Add To Basket</button>      
+                    </div>
+            </div>
     </body>
-    
+
+    <!--Copyright Footer -->
     <div class="footerholder">
-    <div class="site-footer">
-        Copyright 2016	&copy;
+        <div class="site-footer">
+            Copyright 2016 &copy;
+        </div>
     </div>
-</div>
 
 </html>

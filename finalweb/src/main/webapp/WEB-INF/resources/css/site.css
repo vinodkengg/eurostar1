@@ -1,9 +1,10 @@
+/*Main Body Styling*/
 body {
     background-color: black;
-    padding: 30px 30px;
+    padding: 3px 3px;
 }
 
-/*main heading styling*/
+/*Main Heading Styling*/
 h1 {
     color: white;
     text-align: center;
@@ -13,8 +14,10 @@ h1 {
     font-variant: small-caps; 
 }
 
+/*Subheading Styling*/
 h2{color:white;}
 
+/*Paragraph Text Styling*/
 p {
     font-family: "Lucida Console";
     font-size: 10px;
@@ -35,19 +38,29 @@ p_home{
 >>>>>>> origin/master*/
 }
 
-.logo {
+
+/*Logo Number 1*/
+.logoleft {
     position: absolute;
     top: 18px;
     left: 10px;
-    
 }
 
+/*Logo Number 2 */
+.logoright {
+    position: absolute;
+    top: 18px;
+    right: 10px;    
+}
+
+/*Main introduction container*/
 #intro_container{
     position: absolute;
     top: 40%;
     left: 40%;
 }
 
+/*Actual Introduction Styling*/
 #intro{
     color: whitesmoke;
     font-size: 50px;
@@ -59,43 +72,40 @@ p_home{
     line-height: 26.4px;
 }
 
-#bg{
-    /**prevents scrolling issues */
-    position: fixed;
-    
-    bottom:20px;
-    /**min-width: 100%;*/
-    min-height: 70%;
+/*Background Container Styling*/
+#bg_container{
+    position:absolute ;
     width: 100%;
     height: 100%;
-    /** set to background */
     
+    /*border: 3px solid white;*/
+    left: -1px;
+    background-color: #0d0d0d;
     
-    /**backup incas e video doesnt play */
-    background: url(../tupac.png) no-repeat;
-    background-size: cover;
-}
-
-#bg_container{
-    position: fixed;
-    width: 100%;
-    top: 30px;
+    /*set video to back */
     z-index: -100;
+    
+    /**tupac backup image is in this */
+    /*background: url(../tupac.png) no-repeat;*/
+    right: 0px;
 }
 
+.bg_video{
+ /*DO WE NEED THIS AS A TAG*/
+}
 
-
-
+/*Navigation Bar Styling*/
 .nav ul{
   list-style: none;
+         
   /*background-color: black;*/
   text-align: center;
   padding: 0;
+  border-bottom: 3px solid white;
   margin: 10px 10px 10px 10px;
 }
 
-
-
+/*Navigigation Text syling*/
 .nav li {
   margin: auto auto auto 30px ;
  
@@ -108,12 +118,14 @@ p_home{
   height: auto;
 }
  
+/*Navigation Text design*/
 .nav a {
   text-decoration: none;
   /*navigation text colour*/
   color: white;
   display: inline-block;
   transition: .3s background-color;
+  
 }
  
 /*If user hovers on button*/
@@ -124,14 +136,13 @@ p_home{
   
 }
 
-/*Button colour changes if user on page*/
+/*Navigation Button colour changes if user on specific page*/
 .nav a.active {
   color: red;
   cursor: default;
 }
 
-/*********************
-
+/*Footer container styling*/
 .footerholder {
    
     background: none repeat scroll 0 0 ;
@@ -141,11 +152,10 @@ p_home{
     text-align: center;
     width: 93%;
     padding: 15px;
-    bottom: 20px;
-    
-    
+    bottom: 20px; 
 }
 
+/*Footer Text styling*/
 .site-footer {
     background: none repeat scroll 0 0;
     height: auto;
@@ -158,7 +168,6 @@ p_home{
     width:100%;   
     left:0px;
     
-}********/
 
 
 .boxone {
@@ -194,7 +203,7 @@ iframe {width:100%; height:250px;border:0;}
 .venuethree{float:left;display-inline:block;}
 
 
-.container{
+.container_venues{
         margin-top:200px;
         left:0px;
 	width:700px;
@@ -250,4 +259,5 @@ iframe {width:100%; height:250px;border:0;}
 
 .left{
     margin-left:-120px;
+}
 }
