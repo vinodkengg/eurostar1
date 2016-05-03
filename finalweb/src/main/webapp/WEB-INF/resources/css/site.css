@@ -21,9 +21,18 @@ h2{color:white;}
 p {
     font-family: "Lucida Console";
     font-size: 10px;
-/*<<<<<<< HEAD*/
+
     color: white;
     
+}
+
+marquee {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-family:  sans-serif;
+    font-variant: small-caps; 
 }
     
 

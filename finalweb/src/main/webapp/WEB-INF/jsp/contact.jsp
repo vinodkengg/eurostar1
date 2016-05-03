@@ -7,14 +7,18 @@
 <html>
     
     <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"> </script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Group CourseWork 4 </title>
         <link rel="stylesheet" type="text/css" href="${cp}/resources/css/site.css" />
         
         <!--Java script starts here -->
-        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+         
+        
         <script src="${cp}/resources/js/js.js"> </script>
         <!--Java script starts here -->        
+        
+    
     </head>
     
     <body>
@@ -43,12 +47,14 @@
             </ul>
     
             <div class="active">
-                <h1> hello man GHJK </h1>
+                
                 <div id="msg"> TEST </div>
+                
             </div>
         </div>
         
         <!--INSERT CONTENT HERE -->
+        
     </body>
     
     <!--Copyright Footer -->

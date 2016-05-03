@@ -7,14 +7,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"> </script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Group CourseWork 4 </title>
         <link rel="stylesheet" type="text/css" href="${cp}/resources/css/site.css" />
-        <script src="${cp}/resources/js/js.js"></script>
-        <script src="../resources/js/js.js"></script>
         
-
-              
+        <!--Java script starts here -->
+         
+        
+        <script src="${cp}/resources/js/js.js"> </script>
+        <!--Java script starts here -->   
     </head>
            
     <body>

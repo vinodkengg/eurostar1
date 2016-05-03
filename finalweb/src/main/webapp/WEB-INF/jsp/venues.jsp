@@ -7,12 +7,16 @@
 <html>
     
     <head>
-        <!-- Imports -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"> </script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Group CourseWork 4 </title>
         <link rel="stylesheet" type="text/css" href="${cp}/resources/css/site.css" />
-        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+        
+        <!--Java script starts here -->
+         
+        
         <script src="${cp}/resources/js/js.js"> </script>
+        <!--Java script starts here -->   
         
     </head>
     
