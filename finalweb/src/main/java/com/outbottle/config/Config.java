@@ -12,6 +12,8 @@ import org.springframework.web.servlet.view.UrlBasedViewResolver;
 @Configuration
 @ComponentScan("com.outbottle")
 @EnableWebMvc   
+// also in the lecture notes - called maven project 
+//Import security class here 
 public class Config extends WebMvcConfigurerAdapter {  
       
     @Bean  
