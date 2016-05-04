@@ -45,20 +45,19 @@
 
                 </ul>
             </div>
-        
-            <!--background video implemented using YouTube video  
-            ***WARNING*** VIDEO DOES NOT PLAY AUTOMATICALLY ON TABLET SMARTPHONE-->          
-        <div id="bg_container">
-            <div id="bg_video">
-                <!-- Original video youtube video link watch?v=b5Gm6I8tCFw -->
-                <iframe width="100%" height="800px" src="https://www.youtube.com/embed/wLPGPZLX4Lo?modestbranding=1&amp;autoplay=1&amp;controls=0&amp;loop=1&amp;showinfo=0&amp;disablekb=1&amp;enablejsapi=1&amp;playlist=wLPGPZLX4Lo" frameborder="0"> </iframe>
-            </div>
-        </div>
-                 
+           
+            <!--background video implemented using YouTube video -->          
+            
+            <div class="video">
+            
+            <iframe class="frame" src="https://www.youtube.com/embed/wLPGPZLX4Lo?modestbranding=1&amp;autoplay=1&amp;controls=0&amp;loop=1&amp;showinfo=0&amp;disablekb=1&amp;enablejsapi=1&amp;playlist=wLPGPZLX4Lo" > </iframe>
+            
+            </div>                         
+            
          <!--Page Text -->
         <div id="intro_container">
-            <p id="intro">KNOWLEDGE IS POWER</p>
-            
+            <p id="intro">Guildford Nights</p>
+            <p> BRUV </p>
         </div>
     </body>
   

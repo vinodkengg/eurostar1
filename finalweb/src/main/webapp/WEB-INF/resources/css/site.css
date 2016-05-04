@@ -19,10 +19,11 @@ h2{color:white;}
 
 /*Paragraph Text Styling*/
 p {
-    font-family: "Lucida Console";
-    font-size: 10px;
-
+    font-family: "arial";
+    font-size: 20px;
+    text-align:center;
     color: white;
+    
     
 }
 
@@ -68,7 +69,7 @@ p_home{
 /*Actual Introduction Styling*/
 #intro{
     color: whitesmoke;
-    font-size: 50px;
+    
     font-family: Papyrus, fantasy;
     font-size: 48px;
     font-style: normal;
@@ -95,8 +96,9 @@ p_home{
     right: 0px;
 }
 
-.bg_video{
+#bg_video{
  /*DO WE NEED THIS AS A TAG*/
+ width: 100%;
 }
 
 /*Navigation Bar Styling*/
@@ -147,11 +149,30 @@ p_home{
   cursor: default;
 }
 
+.video{  
+    position: fixed;
+     width: 100%;
+     height: 100%;
+     top: 80px;
+     /*set video to back */
+      z-index: -100;
+    
+    /**tupac backup image is in this */
+  /*background: url(../tupac.png) no-repeat;*/
+    right: 0px;
+    
+}
+
+.frame{
+    width:100%;
+    height: 900px;
+    z-index: -100;
+}
 /*Footer container styling*/
 .footerholder {
    
     background: none repeat scroll 0 0 ;
-    
+    border-top: 3px solid white;
     margin: auto;
     position: fixed;
     text-align: center;
@@ -205,3 +226,4 @@ venueone{float:left;display:inline-block;}
 venuetwo{float:left;display:inline-block;}
 
 venuethree{float:left;display:inline-block;}
+

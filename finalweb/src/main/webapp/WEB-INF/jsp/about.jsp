@@ -39,7 +39,16 @@
               </ul>
         </div>
     
-        <!--INSERT CONTENT HERE -->
+       
+        
+        <p id="heading">Knowledge is Power</p>
+            <p id="text"> A state of mind characterized by restlessness, illusions, and incoherence, occurring in intoxication, fever. In short terms "a wild excitement or ecstasy". 
+                This website gives you the chance to reach an experience of delirium, allowing you to view, select and attend future events across Guildford! Allowing you to find out what event is 
+                coming up, when the even is happening, and where the event is using our map tool!</p
+    
+            <p id="intro" 
+            
+    
     </body>
     
     <!--Copyright Footer -->
