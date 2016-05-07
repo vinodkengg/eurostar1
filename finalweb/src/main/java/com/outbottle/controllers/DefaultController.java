@@ -49,7 +49,9 @@ public class DefaultController {
        return "registration";
    }
    
-   //Login 
+   
+   
+   //Login k
    @RequestMapping(value = "/login", method = RequestMethod.GET)
    public String login(ModelMap map) {
        map.put("msg", "This is the second page here !");
