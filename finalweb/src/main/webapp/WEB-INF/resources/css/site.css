@@ -272,3 +272,23 @@ venuetwo{float:left;display:inline-block;}
 
 venuethree{float:left;display:inline-block;}
 
+
+.carousel-inner{
+    width: 600px;
+    height: 238px;
+    border: 3px solid white;
+    position: fixed;
+    bottom: 55px;
+    left: 3px;
+    
+}
+
+.carousel-indicators{
+    position: fixed;
+    bottom: 55px;
+    left: 40px;
+}
+
+.container{
+    position: absolute;
+}

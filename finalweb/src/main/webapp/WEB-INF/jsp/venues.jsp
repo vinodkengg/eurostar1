@@ -8,15 +8,20 @@
     
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"> </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Group CourseWork 4 </title>
         <link rel="stylesheet" type="text/css" href="${cp}/resources/css/site.css" />
         
-        <!--Java script starts here -->
-         
-        
+        <!--Java script starts here -->     
         <script src="${cp}/resources/js/js.js"> </script>
         <!--Java script starts here -->   
+        <style>
+            
+        </style>
         
     </head>
     
@@ -87,7 +92,31 @@
             </div>
         
         </div>
+        
+    <div class="container">
+      <br>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>          
+        </ol>
+        
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="http://olliewade.com/website/wp-content/uploads/2015/05/p1086670672-5.jpg" alt="Bar Thirteen" width="600" height="300">
+          </div>
 
+          <div class="item">
+            <img src="http://i2.getsurrey.co.uk/incoming/article5325769.ece/ALTERNATES/s615/TM364594News.jpg" alt="Casino" width="600" height="300">
+          </div>
+
+          <div class="item">
+            <img src="http://www.tickledivory.com/piano-bar-live-music/Tickled-Ivory-new.jpg" alt="Tickled Ivory" width="600" height="300">
+          </div>
+        </div>
        
     </body>
     
