@@ -43,13 +43,19 @@ public class DefaultController {
        map.put("msg", "This is the second page here !");
        return "about";
    }
+   @RequestMapping(value = "/hello", method = RequestMethod.GET)
+   public String helloView(ModelMap map) {
+       map.put("msg", "This is the second page here !");
+       return "hello";
+   }
+   
+  
+   
    @RequestMapping(value = "/registration", method = RequestMethod.GET)
    public String registration(ModelMap map) {
        map.put("msg", "This is the second page here !");
        return "registration";
    }
-   
-   
    
    //Login k
    @RequestMapping(value = "/login", method = RequestMethod.GET)

@@ -12,13 +12,7 @@ public class HelloService {
 
     //UserName 
     public String sayHello(String name) {
-        return "Hello " + name + "!";
+        return "Succesfully Added to Guest List !  " +  " Name: " + name + " ";
     }
-    
-    //Number Of Guest List
-    public String guestList1(String guestListName1) {
-        return "Hello " + guestListName1;
-    }
-    
-    
+   
 }
