@@ -36,6 +36,8 @@
                 <!-- active indicates what page the user is on -->
                 <li class="about"><a href="about.htm" class="active" >About</a></li>
                 <li class="contact"><a href="contact.htm">Contact</a></li>
+                <li class="login"><a href="login.htm">Login</a></li>
+                <li class="registration"><a href="registration.htm">Registration</a></li>
               </ul>
         </div>
     

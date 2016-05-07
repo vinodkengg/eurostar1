@@ -43,6 +43,12 @@ public class DefaultController {
        map.put("msg", "This is the second page here !");
        return "about";
    }
+   @RequestMapping(value = "/registration", method = RequestMethod.GET)
+   public String registration(ModelMap map) {
+       map.put("msg", "This is the second page here !");
+       return "registration";
+   }
+   
    //Login 
    @RequestMapping(value = "/login", method = RequestMethod.GET)
    public String login(ModelMap map) {

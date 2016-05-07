@@ -44,6 +44,8 @@
                 <li class="about"><a href="about.htm" >About</a></li>
                 <!-- active indicates what page the user is on -->
                 <li class="contact"><a href="contact.htm" class="active">Contact</a></li>
+                <li class="login"><a href="login.htm">Login</a></li>
+               <li class="registration"><a href="registration.htm">Registration</a></li>
             </ul>
     
             <div class="active">
