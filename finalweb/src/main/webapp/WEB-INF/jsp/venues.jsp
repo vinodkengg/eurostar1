@@ -58,7 +58,7 @@
                     <div id="comment-wrap">     
                         <p>Address: 13-15 Bridge Street add, Guildford</p>
                         <p>Phone: 01483 546578</p>
-                        <p>E-mail: info@barthirteen.co.uk</p>
+                        <p>E-mail: info@barthirten.co.uk</p>
                             <input id="Button2" type="button" value="Show on Map" onclick="return Button2_onclick()" />
                     </div>
                 </div>
