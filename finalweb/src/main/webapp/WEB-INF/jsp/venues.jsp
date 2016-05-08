@@ -56,7 +56,7 @@
                 <div id="comments" class="testcomment">
                     <h2 href="#" class="btn">Bar 13</h2>
                     <div id="comment-wrap">     
-                        <p>Address: 13-15 Bridge Street, Guildford</p>
+                        <p>Address: 13-15 Bridge Street add, Guildford</p>
                         <p>Phone: 01483 546578</p>
                         <p>E-mail: info@barthirteen.co.uk</p>
                             <input id="Button2" type="button" value="Show on Map" onclick="return Button2_onclick()" />
