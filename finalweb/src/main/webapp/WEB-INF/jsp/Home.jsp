@@ -36,6 +36,6 @@
                 
             </div>
         <h1 style="color:green">Login Successful!</h1>
-                <h1 style="color:royalblue">${userInformation} ,</h1> <h1 style="color:green">welcome to Spring World !</h1>
+                <h1 style="color:royalblue">${userInformation}</h1> 
     </body>
 </html>

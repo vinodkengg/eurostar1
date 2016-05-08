@@ -20,7 +20,7 @@ public class LoginController {
     @RequestMapping(method = RequestMethod.GET)
     public String init(ModelMap modelMap) {
         modelMap.put("info", "Hello User");
-        return "Login";
+        return "login";
     }
  
     @RequestMapping(method = RequestMethod.POST)
@@ -33,7 +33,7 @@ public class LoginController {
             return "Home";
         } else {
             modelMap.put("errorMessage", "Please enter the correct username/password");
-            return "Login";
+            return "venues";
         }
  
     }
