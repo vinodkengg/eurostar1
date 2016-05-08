@@ -35,6 +35,7 @@
                 <li class="events"><a href="events.htm">Events</a></li>
                 <li class="name"><a href="nameView.htm">View Guest List </a></li>
                 <li class="about"><a href="about.htm" class="active" >About</a></li>
+                <li class="hello"><a href="hello.htm">Genres</a></li>
                 <li class="contact"><a href="contact.htm">Contact</a></li>
                 <li class="login"><a href="login.htm">Login</a></li>
                 <li class="registration"><a href="registration.htm">Registration</a></li>

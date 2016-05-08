@@ -34,19 +34,21 @@
                 <li class="venues"><a  href="venues.htm">Venues</a></li>
                 <li class="events"><a href="events.htm">Events</a></li>
                 <li class="name"><a href="nameView.htm">View Guest List </a></li>
-                <li class="about"><a href="about.htm" class="active" >About</a></li>
+                <li class="about"><a href="about.htm" >About</a></li>
                 <li class="contact"><a href="contact.htm">Contact</a></li>
+                <li class="hello"><a href="hello.htm" class="active">Genres</a></li>
                 <li class="login"><a href="login.htm">Login</a></li>
                 <li class="registration"><a href="registration.htm">Registration</a></li>
-              </ul>
+                   
+            </ul>
         </div>
     
        
         
-        <p><a href="user/0">Show 0 </a></p>
-        <p><a href="user/1">Show 1 </a></p>
-        <p><a href="user/2">Show 2 </a></p>
-        <p><a href="users">GET all users</a></p>" 
+        <p><a href="user/0">Hip Hop</a></p>
+        <p><a href="user/1">R&B</a></p>
+        <p><a href="user/2">Dance Hall</a></p>
+        <p><a href="users">Get All</a></p>" 
             
     
     </body>
