@@ -7,7 +7,8 @@
 <html>
     
     <head>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"> </script>
+        <script src="http://maps.googleapis.com/maps/api/js"></script>
+       <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"> </script>-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -15,14 +16,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Group CourseWork 4 </title>
         <link rel="stylesheet" type="text/css" href="${cp}/resources/css/site.css" />
-        
         <!--Java script starts here -->     
         <script src="${cp}/resources/js/js.js"> </script>
-        <!--Java script starts here -->   
-        <style>
-            
-        </style>
-        
     </head>
     
     <body>
@@ -64,7 +59,7 @@
                         <p>Address: 13-15 Bridge Street, Guildford</p>
                         <p>Phone: 01483 546578</p>
                         <p>E-mail: info@barthirteen.co.uk</p>
-                            <button>Show on Map</button> <button>Events</button>
+                            <input id="Button2" type="button" value="Show on Map" onclick="return Button2_onclick()" />
                     </div>
                 </div>
             </div> 
@@ -76,7 +71,7 @@
                         <p>Address: 13-15 Bridge Street, Guildford</p>
                         <p>Phone: 01483 546578</p>
                         <p>E-mail: info@barthirteen.co.uk</p>
-                            <button>Show on Map</button> <button>Events</button>
+                           <input id="Button1" type="button" value="Show on Map" onclick="return Button1_onclick()" />
                     </div>
                 </div>
             </div>
@@ -88,7 +83,7 @@
                         <p>Address: 13-15 Bridge Street, Guildford</p>
                         <p>Phone: 01483 546578</p>
                         <p>E-mail: info@barthirteen.co.uk</p>
-                           <button>Show on Map</button> <button>Events</button>
+                           <input id="Button3" type="button" value="Show on Map" onclick="return Button3_onclick()" />
                     </div>
                 </div>    
             </div>
@@ -120,6 +115,13 @@
           </div>
         </div>
        
+
+    
+   
+    <div id="googleMap" class="mapdiv"></div>
+    
+    
+        
     </body>
     
     <!--Copyright Footer -->

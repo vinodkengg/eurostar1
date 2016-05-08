@@ -265,7 +265,10 @@ p_home{
     padding:0px 20px;
 }
 
-
+.Venues{
+    height:100px;
+    
+}
 /***
 Javascript for venues
 ***/
@@ -301,4 +304,15 @@ venuethree{float:left;display:inline-block;}
 
 .container{
     position: absolute;
+    
 }
+
+
+.mapdiv{
+    float:right;
+    width:500px;
+    height:380px;
+    border:2.5px solid red;
+
+}
+
