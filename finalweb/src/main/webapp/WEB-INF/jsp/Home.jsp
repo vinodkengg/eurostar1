@@ -20,7 +20,7 @@
         <!-- Title-->
         <h1> Delirium Events</h1>
         
-        <marquee scrollamount="20" behavior="alternate">${userInformation}</marquee> 
+        <marquee scrollamount="20">${userInformation}</marquee> 
             <!-- Website Logo Left -->
             <div class="logoleft">
                 <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:150px;height:100px;">
@@ -48,11 +48,20 @@
                 </ul>
             
          <!--Page Text -->
-        <div id="intro_container">
-            <p id="intro"> Welcome To VIP PAG</p
-            <p>
+        <div >
+            <p id="intro">Exclusive event</p>
             
         </div>
+         
+         <div>
+             <br>
+             <p id=vip> 2016 Black and White Party</p> 
+             <p id=vip> New Year Eve</p>
+             <p id=vip> 50 Shades Of Gray</p>
+            
+         </div>
+         
+         
     </body>
   
     <!--Copyright Footer -->

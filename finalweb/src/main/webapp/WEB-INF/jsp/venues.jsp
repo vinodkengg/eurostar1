@@ -115,6 +115,8 @@
             <img src="http://www.tickledivory.com/piano-bar-live-music/Tickled-Ivory-new.jpg" alt="Tickled Ivory" width="600" height="300">
           </div>
         </div>
+      </div>
+      </div>
        
 
     

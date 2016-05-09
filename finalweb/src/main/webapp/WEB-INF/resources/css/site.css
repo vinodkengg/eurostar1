@@ -98,6 +98,7 @@ marquee {
     font-style: normal;
     font-family:  sans-serif;
     font-variant: small-caps; 
+    
 }
     
 
@@ -136,6 +137,18 @@ p_home{
     
     font-family: Papyrus, fantasy;
     font-size: 48px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+}
+
+/*Style for Vip Page*/
+#vip{
+    color: red;
+    
+    font-family: Papyrus, fantasy;
+    font-size: 30px;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
@@ -324,4 +337,8 @@ venuethree{float:left;display:inline-block;}
     border:2.5px solid red;
 
 }
+/* List stuff starts here here */
+
+
+/* List stuff ends here */
 
