@@ -7,56 +7,39 @@
 <html>
     
     <head>
+    <!--Imports for CSS, JS and Jquery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"> </script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Group CourseWork 4 </title>
+        <title>Contact</title>
         <link rel="stylesheet" type="text/css" href="${cp}/resources/css/site.css" />
-        
-        <!--Java script starts here -->
-         
-        
-        <script src="${cp}/resources/js/js.js"> </script>
-        <!--Java script starts here -->        
-        
-    
+        <script src="${cp}/resources/js/js.js"> </script>   
     </head>
     
     <body>
-        <!-- Title-->
+    <!-- Title-->
         <h1> Delirium Events</h1>
          
-        <!-- Website Logo Left -->
-        <div class="logoleft">
-            <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:150px;height:100px;">
-        </div>  
+    <!-- Website Logo Left -->
+    <div class="logoleft">
+        <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:150px;height:100px;">
+    </div>  
             
-        <!-- Website Logo Right -->
-        <div class="logoright">
-            <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:150px;height:100px;">
-        </div>  
+    <!-- Website Logo Right -->
+    <div class="logoright">
+        <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:150px;height:100px;">
+    </div>  
 
-        <!-- Navigation Bar -->
-        <div class="nav">
-            <ul>
-                <li class="index"><a href="index.htm" >Home</a></li>
-                <li class="venues"><a  href="venues.htm">Venues</a></li>
-                <li class="events"><a href="events.htm" class="active">Events</a></li>
-                <li class="about"><a href="about.htm" >About</a></li>
-                <li class="hello"><a href="hello.htm">Genres</a></li>
-                <li class="name"><a href="nameView.htm">View Guest List </a></li>
-                
-                <li class="login"><a href="login.htm">Login</a></li>
-               <li class="registration"><a href="registration.htm">Registration</a></li>
-            </ul>
-    
-            <div class="active">
-                
-                <div id="msg"> TEST </div>
-                
-            </div>
-        </div>
-        
-        <!--INSERT CONTENT HERE -->
+    <!-- Navigation Bar -->
+    <div class="nav">
+        <ul>
+            <li class="index"><a href="index.htm" >Home</a></li>
+            <li class="venues"><a  href="venues.htm">Venues</a></li>
+            <li class="events"><a href="events.htm" class="active">Events</a></li>
+            <li class="about"><a href="about.htm" >About</a></li>
+            <li class="hello"><a href="hello.htm">Genres</a></li>
+            <li class="name"><a href="nameView.htm">View Guest List </a></li>    
+            <li class="login"><a href="login.htm">Login</a></li>
+        </ul>
         
     </body>
     

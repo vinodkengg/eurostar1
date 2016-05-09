@@ -10,26 +10,26 @@
     </head>
 
     <body>
-        <div class="ticket" style="position:absolute; left:40%;">
+        
+    <div class="ticket" style="position:absolute; left:40%;">
         <h1>Tickets for sale</h1>
         <h2>Casino Friday Night</h2>
-
         <p>Click on the [BUY] to add tickets to the basket</p>
 
         <c:forEach items="${products}" varStatus="i" var="product">
-            <p>
-                <c:url value="/cart/add" var="url" context="/DeliriumEvents">
-                    <c:param name="pid" value="${product.id}"/>
-                </c:url>
-
-                No ${i.index + 1}. ${product.description} £${product.price} - <a href="${url}">[BUY]</a>
-            </p>
+        <p>
+        <c:url value="/cart/add" var="url" context="/DeliriumEvents">
+        <c:param name="pid" value="${product.id}"/>
+        </c:url>
+            No ${i.index + 1}. ${product.description} £${product.price} - <a href="${url}">[BUY]</a>
+        </p>
         </c:forEach>
 
         <c:forEach items="${cart.items}" var="item">
             <c:set var="numItems" value="${numItems+item.quantity}"/>
         </c:forEach>
         <p><a href="/DeliriumEvents/cart/view">Checkout [${numItems > 0 ? numItems : 0}]</a></p>
-        </div>
+    </div>
+    
     </body>
 </html>
