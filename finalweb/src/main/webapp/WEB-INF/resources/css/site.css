@@ -17,6 +17,15 @@ h1 {
 /*Subheading Styling*/
 h2{color:white;}
 
+h4{
+    color:green;
+    ext-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-family:  sans-serif;
+    font-variant: small-caps;
+}
+
 /*Paragraph Text Styling*/
 p {
     font-family: "arial";

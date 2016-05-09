@@ -58,7 +58,7 @@
          <!--Page Text -->
         <div id="intro_container">
             <p id="intro">Guildford Nights</p>
-            <p> BRUV </p>
+            
         </div>
     </body>
   
