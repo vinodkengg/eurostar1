@@ -85,5 +85,10 @@ function Button1_onclick() {
 function Button3_onclick() {
        tickledivory();
     }
+    
+    function ticketNumber() {
+    document.getElementById("demo").innerHTML = Math.random();
+}
+
 google.maps.event.addDomListener(window, 'load', initialize);
 
