@@ -54,7 +54,10 @@
                 <li class="registration"><a href="registration.htm">Registration</a></li>
             </ul>
         </div>
-   
+        <br>
+        <br>
+    <h1> Please hover to select your event</h1>
+    
         <div class="venueone">
             <div id="comments" class="testcomment">
                 <h2 href="#" class="btn">Bar 13</h2>
@@ -63,20 +66,15 @@
                     <p>Event one: 28/04/2016 </p>
                     <p>Event Details go here/p>
                     <p>......................</p>
-                    <button>Add To Basket</button>
-
-                    <p>Event two: 29/04/2016 </p>
-                    <p>Event Details go here</p>
-                    <p>......................</p>
-                    <button>Add To Basket</button>
+                    <button onClick="location.href='tickets/index2.htm'">Buy Ticket</button>
 
                     <p>Event three: 21/05/2016 </p>
                     <p>Event Details go here/p>
                     <p>......................</p>
-                    <button>Add To Basket</button>      
+                    <button onClick="location.href='tickets/index2.htm'">Buy Ticket</button>      
                 </div>
             </div>
-        
+            
         <div class="venueone">
             <div id="comments" class="testcomment">
                 <h2 href="#" class="btn">Casino Night Club</h2>
@@ -85,17 +83,13 @@
                     <p>Event one: 28/04/2016 </p>
                     <p>Event Details go here</p>
                     <p>......................</p>
-                    <button>Add To Basket</button>
+                    <button onClick="location.href='tickets/index2.htm'">Buy Ticket</button>
 
-                    <p>Event two: 29/04/2016 </p>
-                    <p>Event Details go here</p>
-                    <p>......................</p>
-                    <button>Add To Basket</button>
 
                     <p>Event three: 21/05/2016 </p>
                     <p>Event Details go here</p>
                     <p>......................</p>
-                    <button>Add To Basket</button>      
+                    <button onClick="location.href='tickets/index2.htm'">Buy Ticket</button>        
                 </div>
             </div>
 
@@ -107,17 +101,12 @@
                     <p>Event one: 28/04/2016 </p>
                     <p>Event Details go here</p>
                     <p>......................</p>
-                    <button>Add To Basket</button>
-
-                    <p>Event two: 29/04/2016 </p>
-                    <p>Event Details go here</p>
-                    <p>......................</p>
-                    <button>Add To Basket</button>
+                    <button onClick="location.href='tickets/index2.htm'">Buy Ticket</button>
 
                     <p>Event three: 21/05/2016 </p>
                     <p>Event Details go here</p>
                     <p>......................</p>
-                    <button>Add To Basket</button>      
+                    <button onClick="location.href='tickets/index2.htm'">Buy Ticket</button>          
                 </div>
             </div>
            
@@ -129,17 +118,12 @@
                         <p>Event one: 28/04/2016 </p>
                         <p>Event Details go here</p>
                         <p>......................</p>
-                        <button>Add To Basket</button>
-
-                        <p>Event two: 29/04/2016 </p>
-                        <p>Event Details go here</p>
-                        <p>......................</p>
-                        <button>Add To Basket</button>
+                        <button onClick="location.href='tickets/index2.htm'">Buy Ticket</button>
 
                         <p>Event three: 21/05/2016 </p>
                         <p>Event Details go here</p>
                         <p>......................</p>
-                        <button>Add To Basket</button>      
+                        <button onClick="location.href='tickets/index2.htm'">Buy Ticket</button>            
                     </div>
             </div>
     </body>

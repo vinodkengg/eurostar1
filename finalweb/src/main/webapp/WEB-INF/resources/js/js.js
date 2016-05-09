@@ -86,8 +86,14 @@ function Button3_onclick() {
        tickledivory();
     }
     
-    function ticketNumber() {
-    document.getElementById("demo").innerHTML = Math.random();
+    function Button4_onclick() {
+       alert("This is your ticket " + Math.random());
+    }
+    
+    function randomIntFromInterval()
+{
+    //return Math.floor(Math.random()*(max-min+1)+min);
+    alert("hello");
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);

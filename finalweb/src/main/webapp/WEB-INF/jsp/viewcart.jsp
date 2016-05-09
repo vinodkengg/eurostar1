@@ -24,7 +24,7 @@
         <script src="http://code.jquery.com/jquery-latest.min.js"></script>
         <script>
             $(function () {
-                $('#form').submit(function () {
+                $('#view_Cart_form').submit(function () {
                     // show a hidden div to indicate progression
                     $('#hideSuccessfulPayment').show();
                     $('#hideConfirm').show();
@@ -97,11 +97,11 @@
             <p>Total: £${cart.getTotal()}</p>
 
             <p>Please enter card information</p>
-            <form id="form" action="servlet-url" method="post">
-                <p>Card holder name <input type="text" name="cardholdername" maxlength="40" required></p>
-                <p>Card number <input type="text" name="cardnumber" maxlength="16" required></p>
-                <p>Security code <input type="text" name="securitycode" maxlength="3" size="3" required></p>
-                <p>Expiry date <input type="date" name="date" required></p>
+            <form id="view_Cart_form" action="servlet-url" method="post">
+               <p>Card holder name <input type="text" name="cardholdername" maxlength="40" required onkeypress="return (event.charCode === 8 || event.charCode === 0) ? null : ((event.charCode >= 65 && event.charCode <= 91) || (event.charCode >= 97 && event.charCode <= 122))"></p>
+                <p>Card number <input type="text" name="cardnumber" maxlength="16" required onkeypress="return (event.charCode === 8 || event.charCode === 0) ? null : event.charCode >= 48 && event.charCode <= 57"></p>
+                <p>Security code <input type="text" name="securitycode" maxlength="3" size="3" onkeypress="return (event.charCode === 8 || event.charCode === 0) ? null : event.charCode >= 48 && event.charCode <= 57" required></p>
+                 <p>Expiry date <input type="date" name="date" required></p>
                 <input type="submit" value="Pay Now">
             </form>
             <div id="hideSuccessfulPayment" style="display: none;">Payment Successful</div>

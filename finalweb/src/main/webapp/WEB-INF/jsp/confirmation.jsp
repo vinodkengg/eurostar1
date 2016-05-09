@@ -19,7 +19,7 @@
     
     </head>
     
-    <body
+    <body onload="Button4_onclick()">
         
          <h1> Delirium Events</h1>
          
@@ -63,6 +63,8 @@
 
             <p>Total: £${cart.getTotal()}</p>
             <p><a href="/DeliriumEvents/index" class="button">Home</a></p>
+            
+            
         </div>
     </div>
     
