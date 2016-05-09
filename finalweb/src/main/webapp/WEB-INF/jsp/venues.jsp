@@ -62,8 +62,9 @@
 
     <div class="venuetwo">
         <div id="comments" class="testcomment">
+            <h2 href="#" class="btn">Casino Night Club</h2>
             <div id="comment-wrap">     
-                    <h2 href="#" class="btn">Casino Night Club</h2>
+                    
                     <p>Address: 13-15 Bridge Street, Guildford</p>
                     <p>Phone: 01483 546578</p>
                     <p>E-mail: info@barthirteen.co.uk</p>
@@ -74,8 +75,9 @@
 
     <div class="venuethree">
         <div id="comments" class="testcomment">
+            <h2 href="#" class="btn">Tickled Ivory</h2>
             <div id="comment-wrap">     
-                <h2 href="#" class="btn">Tickled Ivory</h2>
+                
                     <p>Address: 13-15 Bridge Street, Guildford</p>
                     <p>Phone: 01483 546578</p>
                     <p>E-mail: info@barthirteen.co.uk</p>
