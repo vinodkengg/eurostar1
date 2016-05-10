@@ -88,17 +88,14 @@
         </form>
         <div id="hideSuccessfulPayment" style="display: none;">
             <p>Payment Successful </p>
+            <p>
+                <a href="/DeliriumEvents/cart/confirmation">View Payment </a>
+            </p>
         </div>
 
 
         <p id="hideConfirm"><a href="/DeliriumEvents/tickets/index2">Back to Checkout</a></p>
 
-
-        <div id="hideConfirm" style="display: none;">
-            <p>
-                <a href="/DeliriumEvents/cart/confirmation">View Payment </a>
-            </p>
-        </div>
     </div>
 </body>
 <div class="footerholder">
