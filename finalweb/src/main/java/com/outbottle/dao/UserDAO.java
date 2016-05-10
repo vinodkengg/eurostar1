@@ -1,7 +1,7 @@
 package com.outbottle.dao;
 
 
-import com.outbottle.bean.User;
+import com.outbottle.model.User;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
