@@ -30,8 +30,6 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <body onload="Button4_onclick()">
-        
-        <h1> Delirium Events</h1>
     
         <!-- Website Logo Left -->
     <div class="logoleft">
