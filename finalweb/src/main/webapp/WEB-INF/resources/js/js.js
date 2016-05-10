@@ -4,18 +4,13 @@
  * and open the template in the editor.
  */
 
-jQuery(document).ready(function($) {
 
-	$('#msg').html("JQuery Workk");
-});
-
-
-
-
-
+/*******
+ * 
+ * Javascript code for Google Maps API
+ */
 function initialize()
 {
-    
 var myCenter=new google.maps.LatLng(51.236267,-0.570405);;
 var mapProp = {
   center:myCenter,
@@ -28,23 +23,25 @@ var marker=new google.maps.Marker({
   });
 marker.setMap(map);
 }
+
+/*****Function to display "Casino" location on Google Maps *****/
 function Casino() {
-    
     var myCasino=new google.maps.LatLng(51.237071,-0.577611);;
-    
     var mapProp = {
     center:myCasino,
     zoom:15,
     mapTypeId:google.maps.MapTypeId.ROADMAP
   };
+ 
   var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-  
   var marker=new google.maps.Marker({
   position:myCasino,
   });
   
   marker.setMap(map);
 }
+
+/*****Function to display "Bar 13" location on Google Maps *****/
 function bar13() {
     var myBar13=new google.maps.LatLng(51.236714,-0.578114);;
     var mapProp = {
@@ -53,13 +50,14 @@ function bar13() {
     mapTypeId:google.maps.MapTypeId.ROADMAP
   };
   var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-  
   var marker=new google.maps.Marker({
   position:myBar13,
   });
   
 marker.setMap(map);
 }
+
+/*****Function to display "Tickled Ivory" location on Google Maps *****/
 function tickledivory() {
     var myTickledivory=new google.maps.LatLng(51.237666,-0.577302);;
     var mapProp = {
@@ -75,6 +73,8 @@ function tickledivory() {
   
   marker.setMap(map);
 }
+
+/***** onclick function for the 3 buttons to show on map ***/
 function Button1_onclick() {
        Casino();
     }
@@ -86,13 +86,15 @@ function Button3_onclick() {
        tickledivory();
     }
     
+/*****Generates a random number as a confirmation
+ *    once a user has purchased a ticket for an event
+ ******/
     function Button4_onclick() {
        alert("This is your ticket " + Math.random());
     }
     
     function randomIntFromInterval()
 {
-    //return Math.floor(Math.random()*(max-min+1)+min);
     alert("hello");
 }
 
