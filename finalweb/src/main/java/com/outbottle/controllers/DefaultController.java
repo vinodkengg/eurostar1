@@ -22,56 +22,46 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableWebMvc
 public class DefaultController {
     
+//index RequestMapping
    @RequestMapping(value = {"/","/index"}, method = RequestMethod.GET)
    public String index(ModelMap map) {
-       map.put("msg", "Hello this is coming from the Default Controller !");
        return "index";
    }
-   
+   //venues RequestMapping
    @RequestMapping(value = "/venues", method = RequestMethod.GET)
    public String venues(ModelMap map) {
-       map.put("msg", "This is the second page here !");
        return "venues";
    }
-   
-   @RequestMapping(value = "/contact", method = RequestMethod.GET)
-   public String contact(ModelMap map) {
-       map.put("msg", "This is the second page here !");
-       return "contact";
-   }
-   
+      //about RequestMapping
     @RequestMapping(value = "/about", method = RequestMethod.GET)
    public String about(ModelMap map) {
-       map.put("msg", "This is the second page here !");
        return "about";
    }
+  
    
-
-   
-   //Login k
+   //Login RequestMapping
    @RequestMapping(value = "/login", method = RequestMethod.GET)
    public String login(ModelMap map) {
-       map.put("msg", "This is the second page here !");
        return "login";
    }
    
+   //AutoWired UserService
     @Autowired
     private UserService userService;
 
-    
+    //Hello RequestMapping
     @RequestMapping( value = "/hello", method = RequestMethod.GET)
     protected String helloUser() throws Exception {
-        System.out.println("*** in helloUser");
         return "hello";
     }
-    
+    //user RequestMapping
     @RequestMapping( value = "/user/{id}", method = RequestMethod.GET)
     protected @ResponseBody User getUser(@PathVariable("id") int id) throws Exception {
         System.out.println("*** in getUser with id=" + id);
         User user = userService.getUser(id);
         return user;
     }
-    
+    //users RequestMapping
     @RequestMapping( value = "/users", method = RequestMethod.GET)
     protected @ResponseBody List<User> getUsers() throws Exception {
         List<User> users = userService.getUsers();

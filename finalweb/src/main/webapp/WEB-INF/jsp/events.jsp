@@ -40,10 +40,8 @@
             <li class="venues"><a  href="venues.htm">Venues</a></li>
             <li class="events"><a href="events.htm" class="active">Events</a></li>
             <li class="hello"><a href="helloView.htm">Add To Guest List </a></li>
-            <li class="name"><a href="nameView.htm">View Guest List </a></li>
             <li class="hello"><a href="hello.htm">Genres</a></li>
             <li class="about"><a href="about.htm" >About</a></li>
-            <li class="contact"><a href="contact.htm">Contact</a></li>
             <li class="login"><a href="login.htm">Login</a></li>
         </ul>
     </div>
