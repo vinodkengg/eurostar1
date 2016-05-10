@@ -3,7 +3,7 @@ package com.outbottle.service;
 
 
 import com.outbottle.bean.User;
-import com.outbottle.dao.DjDetailsDAO;
+import com.outbottle.dao.UserDAO;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,7 +18,7 @@ import org.springframework.stereotype.Service;
 public class UserService {
 
     @Autowired
-    DjDetailsDAO userDAO;
+    UserDAO userDAO;
     
     public UserService() {
         System.out.println("*** UserService instantiated");

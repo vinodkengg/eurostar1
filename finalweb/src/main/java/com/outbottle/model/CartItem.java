@@ -4,8 +4,8 @@ package com.outbottle.model;
  *
  * @author Narbu
  */
-public class BasketItem {
-    private Ticket product;
+public class CartItem {
+    private Product product;
     private int quantity;
 
 
@@ -27,14 +27,14 @@ public class BasketItem {
     /**
      * @return the product
      */
-    public Ticket getProduct() {
+    public Product getProduct() {
         return product;
     }
 
     /**
      * @param product the product to set
      */
-    public void setProduct(Ticket product) {
+    public void setProduct(Product product) {
         this.product = product;
     }
 

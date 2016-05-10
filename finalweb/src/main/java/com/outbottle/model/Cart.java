@@ -9,25 +9,25 @@ import org.springframework.stereotype.Component;
  * @author Narbu
  */
 @Component
-public class Basket {
-    private List<BasketItem> items;
+public class Cart {
+    private List<CartItem> items;
     private float total;
     
-    public Basket() {
-        items = new ArrayList<BasketItem>();
+    public Cart() {
+        items = new ArrayList<CartItem>();
     }
 
     /**
      * @return the items
      */
-    public List<BasketItem> getItems() {
+    public List<CartItem> getItems() {
         return items;
     }
 
     /**
      * @param items the items to set
      */
-    public void setProducts(List<BasketItem> items) {
+    public void setProducts(List<CartItem> items) {
         this.items = items;
     }
 

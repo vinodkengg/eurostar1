@@ -1,11 +1,11 @@
 package com.outbottle.service.impl;
 
 
-import com.outbottle.model.Basket;
-import com.outbottle.model.BasketItem;
-import com.outbottle.model.Ticket;
+import com.outbottle.model.Cart;
+import com.outbottle.model.CartItem;
+import com.outbottle.model.Product;
 import org.springframework.stereotype.Service;
-import com.outbottle.service.BasketService;
+import com.outbottle.service.CartService;
 
 /**
  *
@@ -13,7 +13,7 @@ import com.outbottle.service.BasketService;
  */
 //Sercice Implementation for basket
 @Service
-public class BasketServiceImpl implements BasketService {
+public class CartServiceImpl implements CartService {
     
     /**
      *
@@ -23,13 +23,13 @@ public class BasketServiceImpl implements BasketService {
     
     //Method to add to cart 
     @Override
-    public void addToCart(Basket cart, Ticket product) {
-        BasketItem cartItem = getCartItem(cart, product.getId());
+    public void addToCart(Cart cart, Product product) {
+        CartItem cartItem = getCartItem(cart, product.getId());
         if (cartItem != null && product.getStock() <= cartItem.getQuantity()) {
             return;
         }
         if(cartItem == null) {
-            cartItem = new BasketItem();
+            cartItem = new CartItem();
             cartItem.setProduct(product);
             cartItem.setQuantity(1);
             cart.getItems().add(cartItem);
@@ -39,8 +39,8 @@ public class BasketServiceImpl implements BasketService {
         updateCartTotal(cart);
     }
     //Method to get item from cart
-    public BasketItem getCartItem(Basket cart, int pid) {
-        for (BasketItem item : cart.getItems()) {
+    public CartItem getCartItem(Cart cart, int pid) {
+        for (CartItem item : cart.getItems()) {
             if (item.getProduct().getId() == pid) {
                 return item;
             }
@@ -48,12 +48,12 @@ public class BasketServiceImpl implements BasketService {
         return null;
     }
     //Method to increase quantity of item
-    public BasketItem increaseCartItemQty(BasketItem cartItem) {
+    public CartItem increaseCartItemQty(CartItem cartItem) {
         cartItem.setQuantity(cartItem.getQuantity()+1);
         return cartItem;
     }
     //Decrease the qunatity of item
-    public BasketItem decreaseCartItemQty(BasketItem cartItem) {
+    public CartItem decreaseCartItemQty(CartItem cartItem) {
         cartItem.setQuantity(cartItem.getQuantity()-1);
         return cartItem;
     }
@@ -65,8 +65,8 @@ public class BasketServiceImpl implements BasketService {
      */
     //Method to remove item from the cart
     @Override
-    public void removeFromCart(Basket cart, Ticket product) {
-        BasketItem cartItem = getCartItem(cart, product.getId());
+    public void removeFromCart(Cart cart, Product product) {
+        CartItem cartItem = getCartItem(cart, product.getId());
         if(cartItem == null) {
             return;
         } else {
@@ -75,9 +75,9 @@ public class BasketServiceImpl implements BasketService {
         updateCartTotal(cart);
     }
     //Method to update the cart
-    public void updateCartTotal(Basket cart) {
+    public void updateCartTotal(Cart cart) {
         float total = 0.0f;
-        for (BasketItem item : cart.getItems()) {
+        for (CartItem item : cart.getItems()) {
             total += item.getProduct().getPrice()*(float)item.getQuantity();
         }
         cart.setTotal(total);
@@ -85,8 +85,8 @@ public class BasketServiceImpl implements BasketService {
 
     //Decrease the quantity of the qunatity
     @Override
-    public void decreaseCartQty(Basket cart, Ticket product) {
-        BasketItem cartItem = getCartItem(cart, product.getId());
+    public void decreaseCartQty(Cart cart, Product product) {
+        CartItem cartItem = getCartItem(cart, product.getId());
         if(cartItem == null){
             return;
         }else{

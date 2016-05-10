@@ -4,7 +4,7 @@ package com.outbottle.model;
  *
  * @author Narbu
  */
-public class Ticket {
+public class Product {
     private int id;
     private int stock;
     private float price;

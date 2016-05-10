@@ -6,7 +6,7 @@
 package com.outbottle.controllers;
 
 
-import com.outbottle.model.Basket;
+import com.outbottle.model.Cart;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
-import com.outbottle.service.BasketService;
-import com.outbottle.service.TciketService;
+import com.outbottle.service.CartService;
+import com.outbottle.service.ProductService;
 
 /**
  *
@@ -28,13 +28,13 @@ import com.outbottle.service.TciketService;
 public class ConfirmationController {
     
     @Autowired
-    BasketService cartService;
+    CartService cartService;
     
     @Autowired
-    TciketService productService;
+    ProductService productService;
     
     @RequestMapping("/confirmation")
-    public String viewProducts(ModelMap model, @ModelAttribute Basket cart) {
+    public String viewProducts(ModelMap model, @ModelAttribute Cart cart) {
         return "confirmation";
     }
     
