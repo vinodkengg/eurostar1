@@ -50,7 +50,11 @@
             <c:set var="numItems" value="${numItems+item.quantity}"/>
         </c:forEach>
         <p><a href="/DeliriumEvents/cart/view">Checkout [${numItems > 0 ? numItems : 0}]</a></p>
+        
+        <br>
+        <p><a href="/DeliriumEvents/index" class="button">Home</a></p>
     </div>
+    
     
     </body>
 </html>
