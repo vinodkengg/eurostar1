@@ -7,7 +7,7 @@
 
 /*******
  * 
- * Javascript code for Google Maps API
+ * Javascript code for Google Map API
  */
 function initialize()
 {
