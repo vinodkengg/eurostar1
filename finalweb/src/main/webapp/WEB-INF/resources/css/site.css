@@ -69,8 +69,7 @@ p4{
 .username{
     width: 150px;
     height:20px;
-    
-}
+ }
 
 .password{
     width: 150px;
@@ -78,7 +77,6 @@ p4{
 }
 
 .logindiv{
-    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -106,7 +104,6 @@ marquee {
     font-style: normal;
     font-family:  sans-serif;
     font-variant: small-caps; 
-    
 }
     
 
@@ -168,29 +165,16 @@ p_home{
     position:absolute ;
     width: 100%;
     height: 100%;
-    
-    /*border: 3px solid white;*/
     left: -1px;
     background-color: #0d0d0d;
-    
-    /*set video to back */
     z-index: -100;
-    
-    /**tupac backup image is in this */
-    /*background: url(../tupac.png) no-repeat;*/
     right: 0px;
 }
 
-#bg_video{
- /*DO WE NEED THIS AS A TAG*/
- width: 100%;
-}
 
 /*Navigation Bar Styling*/
 .nav ul{
   list-style: none;
-         
-  /*background-color: black;*/
   text-align: center;
   padding: 0;
   border-bottom: 3px solid white;
@@ -236,16 +220,11 @@ p_home{
 
 .video{  
     position: fixed;
-     width: 100%;
-     height: 100%;
-     top: 80px;
-     /*set video to back */
-      z-index: -100;
-    
-    /**tupac backup image is in this */
-  /*background: url(../tupac.png) no-repeat;*/
-    right: 0px;
-    
+    width: 100%;
+    height: 100%;
+    top: 80px;
+    z-index: -100;
+    right: 0px;    
 }
 
 .frame{
@@ -253,6 +232,7 @@ p_home{
     height: 900px;
     z-index: -100;
 }
+
 /*Footer container styling*/
 .footerholder {
    
@@ -302,19 +282,48 @@ p_home{
 /***
 Javascript for venues
 ***/
-.testcomment {width:200px;float:left;background-color:black;border:1.5px solid whitesmoke;} 
-iframe {width:100%; height:250px;border:0;}
-#comment-wrap {background:#fff;position:relative}
-#comments #comment-wrap{display:none;z-index:5;padding:10px; background-color:black;}
-#comments:hover #comment-wrap {display:block}
+.testcomment {
+    width:200px;
+    float:left;
+    background-color:black;
+    border:1.5px solid whitesmoke;
+}
 
+iframe {
+    width:100%;
+    height:250px;
+    border:0;
+}
 
-venueone{float:left;display:inline-block;}
+#comment-wrap {
+    background:#fff;
+    position:relative}
 
-venuetwo{float:left;display:inline-block;}
+#comments #comment-wrap{
+    display:none;
+    z-index:5;
+    padding:10px;
+    background-color:black;
+}
 
-venuethree{float:left;display:inline-block;}
+#comments:hover #comment-wrap {
+    display:block
+}
 
+venueone{
+    float:left;
+         display:inline-block;
+}
+
+venuetwo{
+    float:left;
+    display:inline-block;
+}
+
+venuethree{
+    float:left;
+    display:inline-block;
+}
 
 .carousel-inner{
     width: 600px;
@@ -323,7 +332,6 @@ venuethree{float:left;display:inline-block;}
     position: fixed;
     bottom: 55px;
     left: 3px;
-    
 }
 
 .carousel-indicators{
@@ -334,23 +342,15 @@ venuethree{float:left;display:inline-block;}
 
 .container{
     position: absolute;
-    
 }
-
 
 .mapdiv{
     float:right;
     width:500px;
     height:380px;
     border:2.5px solid red;
-
 }
-/* List stuff starts here here */
-
-
-/* List stuff ends here */
 
 .ticket{
-    color:white;
-    
+    color:white; 
 }
