@@ -2,7 +2,7 @@
 package com.outbottle.service;
 
 
-import com.outbottle.bean.User;
+import com.outbottle.model.User;
 import com.outbottle.dao.UserDAO;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;

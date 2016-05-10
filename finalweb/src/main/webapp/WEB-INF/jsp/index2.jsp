@@ -1,13 +1,34 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-    "http://www.w3.org/TR/html4/loose.dtd">
+<c:set var="cp" value="${pageContext.request.servletContext.contextPath}" scope="request" />
+<!DOCTYPE html>
 
 <html>
     <head>
+        <!--Imports for CSS, JS and Jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Tickets for Sale</title>
+        <link rel="stylesheet" type="text/css" href="${cp}/resources/css/site.css" />
+        <script src="${cp}/resources/js/js.js"></script>
+        <title> Confirmation </title>
     </head>
+
+    <body>
+
+        <h1> Delirium Events</h1>
+
+        <!-- Website Logo Left -->
+        <div class="logoleft">
+            <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:150px;height:100px;">
+        </div>
+
+        <!-- Website Logo Right -->
+        <div class="logoright">
+            <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:150px;height:100px;">
+        </div>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
     <body>
         

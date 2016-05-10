@@ -1,4 +1,4 @@
-package com.outbottle.bean;
+package com.outbottle.model;
 
 import java.util.Date;
 import java.util.List;

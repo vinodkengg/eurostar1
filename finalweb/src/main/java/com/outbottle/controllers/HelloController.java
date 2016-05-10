@@ -1,7 +1,7 @@
 package com.outbottle.controllers;
 
 
-import com.outbottle.bean.Name;
+import com.outbottle.model.Name;
 import com.outbottle.service.HelloService;
 import java.util.ArrayList;
 import org.springframework.beans.factory.annotation.Autowired;

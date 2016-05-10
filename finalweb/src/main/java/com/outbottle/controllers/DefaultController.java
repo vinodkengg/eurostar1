@@ -5,7 +5,7 @@
  */
 package com.outbottle.controllers;
 
-import com.outbottle.bean.User;
+import com.outbottle.model.User;
 import com.outbottle.service.UserService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
