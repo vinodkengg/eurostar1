@@ -63,7 +63,7 @@
 
                 <p>Click on the [Increase] sign to increase tickets to the basket</p>
                 <p>Click on the [Decrease] sign to decrease tickets from the basket </p>
-                <p>Click on the [Remove] sign to remove tickets from the basket </p>
+                <p>Click on the [Remove  ] sign to remove tickets from the basket </p>
 
             <table style="width: 400px">
                 <tr>
