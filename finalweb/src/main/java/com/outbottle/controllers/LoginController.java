@@ -30,7 +30,7 @@ public class LoginController {
         String username = loginModel.getUsername();
         if ((username != null && username.equals("group4")) && (password != null && password.equals("hello")) ) {
             modelMap.put("userInformation", "Login Sucessful");
-            return "Home";
+            return "events";
         } else {
             modelMap.put("errorMessage", "Please enter the correct username/password");
             return null;
