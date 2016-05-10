@@ -354,4 +354,10 @@ venuethree{
 .payment{
     color:white; 
     
+ #hideSuccessfulPayment {
+        display: none;
+        font-size: 30px;
+        text-align:center;
+        color: red;
+ }
 }

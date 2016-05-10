@@ -14,14 +14,11 @@
     </head>
 
     <body>
-
         <h1> Delirium Events</h1>
-
         <!-- Website Logo Left -->
         <div class="logoleft">
             <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:150px;height:100px;">
         </div>
-
         <!-- Website Logo Right -->
         <div class="logoright">
             <img src="${cp}/resources/logo.jpg" alt="Logo" style="width:150px;height:100px;">
@@ -30,41 +27,14 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <script src="http://code.jquery.com/jquery-latest.min.js"></script>
         <script>
-            $(function () {
-                $('#view_Cart_form').submit(function () {
-                    // show a hidden div to indicate progression
-                    $('#hideSuccessfulPayment').show();
-                    $('#hideConfirm').show();
-                    $('#hideCheckout').hide();
-                    // kick off AJAX
-                    $.ajax({
-                        url: this.action,
-                        type: this.method,
-                        data: $(this).serialize(),
-                        success: function () {
-                            // AJAX request finished, handle the results and hide progress
-                            $('#hideSuccessfulPayment').hide();
-                            $('#hideConfirm').hide();
-                        }
-                    });
-                    return false;
-                });
-            });
+
         </script>
 
-        <style>
-            #hideSuccessfulPayment {
-                display: none;
-                font-size: 30px;
-                text-align:center;
-                color: red;
-            }
 
-        </style>
 
         <title class="titleviewcart">Ticket Cart</title>
     </head>
-<body>
+
     <div class="viewcart" style="position:absolute; left:40%;">
         <h1>Ticket Cart</h1>
 
@@ -81,7 +51,7 @@
                     <td>Qty</td>
                     <td>&nbsp;</td>
                 </tr>
-        
+
                 <c:forEach items="${cart.items}" varStatus="i" var="item">
                     <c:url value="/cart/remove" var="r_url" context="/DeliriumEvents">
                         <c:param name="pid" value="${item.product.id}"/>
@@ -105,7 +75,7 @@
                 </c:forEach>
             </table>
         </div>
-        <p>Total: £${cart.getTotal()}</p>
+        <h1>Total: £${cart.getTotal()}</h1>
 
         <p>Please enter card information</p>
         <form id="view_Cart_form" action="servlet-url" method="post">
@@ -116,11 +86,13 @@
             <br>
             <input type="submit" value="Pay Now">
         </form>
-        <div id="hideSuccessfulPayment" style="display: none;">Payment Successful</div>
-
-        <div id="hideCheckout">
-            <p><a href="/DeliriumEvents/tickets/index2">Back to Checkout</a></p>
+        <div id="hideSuccessfulPayment" style="display: none;">
+            <p>Payment Successful </p>
         </div>
+
+
+        <p id="hideConfirm"><a href="/DeliriumEvents/tickets/index2">Back to Checkout</a></p>
+
 
         <div id="hideConfirm" style="display: none;">
             <p>
@@ -129,4 +101,10 @@
         </div>
     </div>
 </body>
+<div class="footerholder">
+    <div class="site-footer">
+        Copyright 2016 &copy;
+    </div >
+</div>
+
 </html>

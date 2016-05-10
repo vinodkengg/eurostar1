@@ -93,10 +93,26 @@ function Button3_onclick() {
        alert("This is your ticket " + Math.random());
     }
     
-    function randomIntFromInterval()
-{
-    alert("hello");
-}
+$(function () {
+                $('#view_Cart_form').submit(function () {
+                    // show a hidden div to indicate progression
+                    $('#hideSuccessfulPayment').show();
+                    $('#hideConfirm').show();
+                    $('#hideCheckout').hide();
+                    // kick off AJAX
+                    $.ajax({
+                        url: this.action,
+                        type: this.method,
+                        data: $(this).serialize(),
+                        success: function () {
+                            // AJAX request finished, handle the results and hide progress
+                            $('#hideSuccessfulPayment').hide();
+                            $('#hideConfirm').hide();
+                        }
+                    });
+                    return false;
+                });
+            });
 
 google.maps.event.addDomListener(window, 'load', initialize);
 
