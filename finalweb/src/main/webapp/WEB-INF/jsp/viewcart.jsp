@@ -109,10 +109,10 @@
 
         <p>Please enter card information</p>
         <form id="view_Cart_form" action="servlet-url" method="post">
-            <p>Card holder name <input type="text" name="cardholdername" maxlength="40" required onkeypress="return (event.charCode === 8 || event.charCode === 0) ? null : ((event.charCode >= 65 && event.charCode <= 91) || (event.charCode >= 97 && event.charCode <= 122))"></p>
-            <p>Card number <input type="text" name="cardnumber" maxlength="16" required onkeypress="return (event.charCode === 8 || event.charCode === 0) ? null : event.charCode >= 48 && event.charCode <= 57"></p>
-            <p>Security code <input type="text" name="securitycode" maxlength="3" size="3" onkeypress="return (event.charCode === 8 || event.charCode === 0) ? null : event.charCode >= 48 && event.charCode <= 57" required></p>
-            <p>Expiry date <input type="date" name="date" required></p>
+            <p>Card holder name (Example SMITH):<input type="text" name="cardholdername" maxlength="40" required onkeypress="return (event.charCode === 8 || event.charCode === 0) ? null : ((event.charCode >= 65 && event.charCode <= 91) || (event.charCode >= 97 && event.charCode <= 122))"></p>
+            <p>Card number(Example 7436456386785098):<input type="text" name="cardnumber" maxlength="16" required onkeypress="return (event.charCode === 8 || event.charCode === 0) ? null : event.charCode >= 48 && event.charCode <= 57"></p>
+            <p>Security code (Example 435):<input type="text" name="securitycode" maxlength="3" size="3" onkeypress="return (event.charCode === 8 || event.charCode === 0) ? null : event.charCode >= 48 && event.charCode <= 57" required></p>
+            <p>Expiry date (Example 04.05.19):<input type="date" name="date" required></p>
             <br>
             <input type="submit" value="Pay Now">
         </form>

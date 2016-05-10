@@ -20,7 +20,8 @@
     <body>
         <!-- Header -->
         <h1>Guest List</h1>
-         <!-- Navigation Bar --> 
+    
+        <!-- Navigation Bar --> 
     <div class="nav">
         <ul>
             <li class="index"><a href="index.htm">Home</a></li>
