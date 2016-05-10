@@ -6,28 +6,28 @@ import org.springframework.stereotype.Component;
 
 /**
  *
- * @author Bogdan Vrusias
+ * @author Narbu
  */
 @Component
-public class Cart {
-    private List<CartItem> items;
+public class Basket {
+    private List<BasketItem> items;
     private float total;
     
-    public Cart() {
-        items = new ArrayList<CartItem>();
+    public Basket() {
+        items = new ArrayList<BasketItem>();
     }
 
     /**
      * @return the items
      */
-    public List<CartItem> getItems() {
+    public List<BasketItem> getItems() {
         return items;
     }
 
     /**
      * @param items the items to set
      */
-    public void setProducts(List<CartItem> items) {
+    public void setProducts(List<BasketItem> items) {
         this.items = items;
     }
 

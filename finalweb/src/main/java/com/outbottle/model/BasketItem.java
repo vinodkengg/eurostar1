@@ -2,10 +2,10 @@ package com.outbottle.model;
 
 /**
  *
- * @author Bogdan Vrusias
+ * @author Narbu
  */
-public class CartItem {
-    private Product product;
+public class BasketItem {
+    private Ticket product;
     private int quantity;
 
 
@@ -27,14 +27,14 @@ public class CartItem {
     /**
      * @return the product
      */
-    public Product getProduct() {
+    public Ticket getProduct() {
         return product;
     }
 
     /**
      * @param product the product to set
      */
-    public void setProduct(Product product) {
+    public void setProduct(Ticket product) {
         this.product = product;
     }
 

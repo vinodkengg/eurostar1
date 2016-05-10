@@ -9,14 +9,16 @@ import org.springframework.stereotype.Repository;
 
 /**
  *
- * @author Bogdan Vrusias
+ * @author Sinan Cayir
  */
+
+//Data Access Object for returning the data from the backend to the frontend displaying
 @Repository
-public class UserDAO {
+public class DjDetailsDAO {
 
     List<User> users = new ArrayList<User>();
 
-    public UserDAO() {
+    public DjDetailsDAO() {
         
         
         User user1 = new User();

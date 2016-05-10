@@ -17,14 +17,16 @@ import org.springframework.web.servlet.ModelAndView;
  *
  * @author Sinan 
  */
+
+//Controller for adding people onto the Guestlist
 @Controller
 public class HelloController {
 
     @Autowired
     private HelloService helloService;
-  
     private Object name2;
 
+    //Returns the form section of adding people on to the Guestlist
     @RequestMapping( value = "/helloView.htm", method = RequestMethod.GET )
     protected String onView(ModelMap model) throws Exception {
         Name name = new Name();
@@ -36,7 +38,7 @@ public class HelloController {
     public String nameView(ModelMap map) {
         return "helloView";
     }
-    
+    //Reterns the page displaying the guestlist
     @RequestMapping( value = "/helloView.htm", method = RequestMethod.POST )
     protected ModelAndView onSubmit(@ModelAttribute() Name name) throws Exception {
         System.out.println("We got the folowing name: " + name.getValue());

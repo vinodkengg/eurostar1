@@ -3,20 +3,22 @@ package com.outbottle.service;
 
 
 import com.outbottle.bean.User;
-import com.outbottle.dao.UserDAO;
+import com.outbottle.dao.DjDetailsDAO;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
  *
- * @author Bogdan Vrusias
+ * @author Narbu
  */
+
+//Service for Dj details
 @Service
 public class UserService {
 
     @Autowired
-    UserDAO userDAO;
+    DjDetailsDAO userDAO;
     
     public UserService() {
         System.out.println("*** UserService instantiated");

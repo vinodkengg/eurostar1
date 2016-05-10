@@ -5,9 +5,13 @@ import java.util.List;
 
 /**
  *
- * @author Bogdan Vrusias
+ * @author Sinan Cayir
  */
 public class User {
+    /**
+     * Fields for Dj list
+     * Interger = ID, String = dj_Genre, List = dj_list
+     */
     private int id;
     private String dj_Genre;
     private List<String> dj_List;
@@ -27,7 +31,7 @@ public class User {
     }
 
     /**
-     * @return the name
+     * @return the genre name
      */
     public String getDj_Genre() {
         return dj_Genre;
@@ -50,7 +54,7 @@ public class User {
     }
 
     /**
-     * @param dj_List the hobbies to set
+     * @param dj_List setter for List of dj's
      */
     public void setDj_List(List<String> dj_List) {
         this.dj_List = dj_List;

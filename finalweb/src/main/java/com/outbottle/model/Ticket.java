@@ -2,9 +2,9 @@ package com.outbottle.model;
 
 /**
  *
- * @author bogdan
+ * @author Narbu
  */
-public class Product {
+public class Ticket {
     private int id;
     private int stock;
     private float price;

@@ -5,8 +5,10 @@ import org.springframework.stereotype.Service;
 
 /**
  *
- * @author Bogdan Vrusias
+ * @author Thomas
  */
+
+//Service for Guestlist
 @Service
 public class HelloService {
 

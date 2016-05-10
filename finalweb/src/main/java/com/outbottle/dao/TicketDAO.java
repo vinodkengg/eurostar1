@@ -1,43 +1,46 @@
 package com.outbottle.dao;
 
 
-import com.outbottle.model.Product;
+import com.outbottle.model.Ticket;
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.stereotype.Repository;
 
 /**
  *
- * @author bogdan
+ * @author Thomas
  */
+
+//Data Access Object class different types of tickets
 @Repository
-public class ProductDao {
+public class TicketDAO {
     
-    public List<Product> getAllProducts() {
-        List<Product> products = new ArrayList<Product>();
+    //Method for list of tickets
+    public List<Ticket> getAllProducts() {
+        List<Ticket> products = new ArrayList<Ticket>();
         
-        Product p1 = new Product();
+        Ticket p1 = new Ticket();
         p1.setId(1);
         p1.setDescription("Early Bird");
         p1.setPrice(5.00f);
         p1.setStock(100);
         products.add(p1);
         
-        Product p2 = new Product();
+        Ticket p2 = new Ticket();
         p2.setId(2);
         p2.setDescription("2nd release");
         p2.setPrice(7.00f);
         p2.setStock(200);
         products.add(p2);
         
-        Product p3 = new Product();
+        Ticket p3 = new Ticket();
         p3.setId(3);
         p3.setDescription("3rd release");
         p3.setPrice(8.00f);
         p3.setStock(200);
         products.add(p3);
         
-        Product p4 = new Product();
+        Ticket p4 = new Ticket();
         p4.setId(4);
         p4.setDescription("Standard");
         p4.setPrice(10.00f);
