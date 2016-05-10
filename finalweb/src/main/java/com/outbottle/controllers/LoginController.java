@@ -25,7 +25,6 @@ public class LoginController {
  
     @RequestMapping(method = RequestMethod.POST)
     public String submit(ModelMap modelMap, @ModelAttribute("loginModel") LoginModel loginModel) {
-        System.out.println("in submit" + loginModel);
         String password = loginModel.getPassword();
         String username = loginModel.getUsername();
         if ((username != null && username.equals("group4")) && (password != null && password.equals("hello")) ) {
