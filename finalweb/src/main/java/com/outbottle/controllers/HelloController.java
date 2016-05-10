@@ -22,12 +22,7 @@ public class HelloController {
 
     @Autowired
     private HelloService helloService;
-   /*
-    public ArrayList<ModelAndView> mvtotal;
-
-    public ArrayList<ModelAndView> getMV() {
-        return mvtotal;
-    }*/
+  
     private Object name2;
 
     @RequestMapping( value = "/helloView.htm", method = RequestMethod.GET )
@@ -46,12 +41,10 @@ public class HelloController {
     protected ModelAndView onSubmit(@ModelAttribute() Name name) throws Exception {
         System.out.println("We got the folowing name: " + name.getValue());
        
-        ModelAndView mv = new ModelAndView("helloView");
-        mv.addObject("helloMessage",helloService.sayHello(name.getValue()));
-       
-//        ModelAndView mv1 = new ModelAndView("helloView");
-//        mv1.addObject("guestListMessage1",helloService.guestListName1(name2.getValue()));
-        return mv;
+        ModelAndView model_and_View_Object = new ModelAndView("helloView");
+        model_and_View_Object.addObject("helloMessage",helloService.sayHello(name.getValue()));
+      
+        return model_and_View_Object;
     }
     
 }
