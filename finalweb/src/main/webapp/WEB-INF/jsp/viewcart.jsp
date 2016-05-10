@@ -61,9 +61,9 @@
             <div class="viewcart" style="position:absolute; left:40%;">
                 <h1>Ticket Cart</h1>
 
-                <p>Click on the [+] sign to increase tickets to the basket</p>
-                <p>Click on the [-] sign to decrease tickets from the basket </p>
-                <p>Click on the [x] sign to remove tickets from the basket </p>
+                <p>Click on the [Increase] sign to increase tickets to the basket</p>
+                <p>Click on the [Decrease] sign to decrease tickets from the basket </p>
+                <p>Click on the [Remove] sign to remove tickets from the basket </p>
 
             <table style="width: 400px">
                 <tr>
@@ -73,13 +73,13 @@
                     <td>&nbsp;</td>
                 </tr>
                 <c:forEach items="${cart.items}" varStatus="i" var="item">
-                    <c:url value="/cart/remove" var="r_url" context="/Lab_Cart">
+                    <c:url value="/cart/remove" var="r_url" context="/DeliriumEvents">
                         <c:param name="pid" value="${item.product.id}"/>
                     </c:url>
-                    <c:url value="/cart/increase" var="i_url" context="/Lab_Cart">
+                    <c:url value="/cart/increase" var="i_url" context="/DeliriumEvents">
                         <c:param name="pid" value="${item.product.id}"/>
                     </c:url>
-                    <c:url value="/cart/decrease" var="d_url" context="/Lab_Cart">
+                    <c:url value="/cart/decrease" var="d_url" context="/DeliriumEvents">
                         <c:param name="pid" value="${item.product.id}"/>
                     </c:url>
                     <tr>
