@@ -12,8 +12,8 @@
     <body>
         
     <div class="ticket" style="position:absolute; left:40%;">
-        <h1>Tickets for sale</h1>
-        <h2>Casino Friday Night</h2>
+        <h1>Delirium Events Tickets</h1>
+        
         <p>Click on the [BUY] to add tickets to the basket</p>
 
         <c:forEach items="${products}" varStatus="i" var="product">

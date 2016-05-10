@@ -34,12 +34,6 @@ public class DefaultController {
        return "venues";
    }
    
-   @RequestMapping(value = "/events", method = RequestMethod.GET)
-   public String events(ModelMap map) {
-       map.put("msg", "This is the second page here !");
-       return "events";
-   }
-   
    @RequestMapping(value = "/contact", method = RequestMethod.GET)
    public String contact(ModelMap map) {
        map.put("msg", "This is the second page here !");
