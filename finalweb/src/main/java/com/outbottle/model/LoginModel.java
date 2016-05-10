@@ -42,9 +42,5 @@ public class LoginModel {
         this.password = password;
     }
     
-     @Override
-    public String toString() {
-        return "LoginModel{" + "username=" + username + ", password=" + password + '}';
-    }
     
 }
