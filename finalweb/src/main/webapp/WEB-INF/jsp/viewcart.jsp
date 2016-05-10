@@ -93,8 +93,9 @@
             </p>
         </div>
 
-
+        <div>
         <p id="hideConfirm"><a href="/DeliriumEvents/tickets/index2">Back to Checkout</a></p>
+        </div>
 
     </div>
 </body>

@@ -90,7 +90,8 @@ function Button3_onclick() {
  *    once a user has purchased a ticket for an event
  ******/
     function Button4_onclick() {
-       alert("This is your ticket " + Math.random());
+       alert("Please Note Your Ticket number "); 
+       alert("This is your ticket Number ---" + Math.random() );
     }
     
 $(function () {

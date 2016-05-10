@@ -46,8 +46,8 @@
         <h1>Confirmation</h1>
 
         <p>Thank you for your purchase</p>
-
-        <table style="width: 400px">
+    <div class="payment">
+        <table>
             <tr>
                 <td>Tickets</td>
                 <td>Unit Price</td>
